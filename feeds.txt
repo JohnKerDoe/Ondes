@@ -1,6 +1,20 @@
-# Un flux RSS par ligne. Les lignes qui commencent par # sont ignorées.
-# Pour trouver le flux d'un podcast : cherche son nom sur https://podcastindex.org
-# ou colle son lien Apple Podcasts sur https://getrssfeed.com
-#
-# Ajoute tes podcasts ci-dessous :
+# Un podcast par ligne : son nom suffit (le flux est retrouvé automatiquement).
+# En cas d'homonyme, précise le diffuseur après une barre : « Nom | Diffuseur ».
+# Tu peux aussi coller directement l'adresse d'un flux RSS.
+# Les lignes qui commencent par # sont ignorées.
 
+À la régulière | France Inter
+Affaires sensibles | France Inter
+Calmos, le podcast
+Continue tu m'intéresses
+FloodCast
+La Bonne Vivance
+Le Cosy Corner
+Le Jeu des 1000 euros | France Inter
+Le masque et la plume | France Inter
+Le Potes Cast de Yacine et Dedo
+Les Crapules du Showbiz
+MouseCast
+Réalisé sans trucage
+Star System
+Sur parole

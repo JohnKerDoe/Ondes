@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "podcast-bot"
           git config user.email "podcast-bot@users.noreply.github.com"
-          git add episodes.json
+          git add episodes.json feeds-resolved.json
           git diff --cached --quiet && exit 0
           git commit -m "Mise à jour des épisodes"
           git pull --rebase

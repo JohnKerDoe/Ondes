@@ -2,7 +2,10 @@
 """Récupère les flux RSS listés dans feeds.txt et écrit episodes.json
 (épisodes triés du plus récent au plus ancien). Aucune dépendance externe."""
 import json
+import re
 import sys
+import unicodedata
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -102,13 +105,70 @@ def parse_feed(xml_bytes, feed_url):
     return show, episodes
 
 
+RESOLVED_FILE = ROOT / "feeds-resolved.json"
+
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    s = s.replace("€", " euros ")
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def lookup(name, artist_hint=""):
+    """Trouve le flux RSS d'un podcast à partir de son nom (annuaire Apple Podcasts)."""
+    q = urllib.parse.urlencode({"term": name, "media": "podcast", "entity": "podcast",
+                                "country": "FR", "limit": 15})
+    results = json.loads(fetch("https://itunes.apple.com/search?" + q)).get("results", [])
+    results = [r for r in results if r.get("feedUrl")]
+    if artist_hint:
+        hinted = [r for r in results if norm(artist_hint) in norm(r.get("artistName"))]
+        results = hinted or results
+    if not results:
+        raise ValueError(f"podcast introuvable : {name}")
+    n = norm(name)
+
+    def score(r):
+        t = norm(r.get("collectionName"))
+        if t == n:
+            return 0
+        if t.startswith(n):
+            return 1
+        if n in t:
+            return 2
+        return 3
+
+    best = min(results, key=score)   # à égalité, garde l'ordre de pertinence d'Apple
+    return best["feedUrl"], best.get("collectionName", ""), best.get("artistName", "")
+
+
 def read_feed_urls():
-    urls = []
+    """Chaque ligne de feeds.txt est soit une adresse de flux, soit un nom de podcast
+    (éventuellement « Nom | Diffuseur » pour lever une ambiguïté)."""
+    try:
+        resolved = json.loads(RESOLVED_FILE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        resolved = {}
+    urls, errors, used = [], [], {}
     for line in FEEDS_FILE.read_text(encoding="utf-8").splitlines():
         line = line.strip()
-        if line and not line.startswith("#"):
+        if not line or line.startswith("#"):
+            continue
+        if line.lower().startswith("http"):
             urls.append(line)
-    return urls
+            continue
+        if line not in resolved:
+            name, _, hint = line.partition("|")
+            try:
+                url, title, artist = lookup(name.strip(), hint.strip())
+                resolved[line] = {"feed": url, "title": title, "artist": artist}
+                print(f"Trouvé : {line} -> {title} ({artist})")
+            except Exception as e:
+                errors.append({"feed": line, "error": str(e)[:200]})
+                continue
+        used[line] = resolved[line]
+        urls.append(resolved[line]["feed"])
+    RESOLVED_FILE.write_text(json.dumps(used, ensure_ascii=False, indent=1), encoding="utf-8")
+    return urls, errors
 
 
 def fetch(url):
@@ -118,8 +178,9 @@ def fetch(url):
 
 
 def main():
-    all_eps, shows, errors = [], [], []
-    for url in read_feed_urls():
+    all_eps, shows = [], []
+    urls, errors = read_feed_urls()
+    for url in urls:
         try:
             show, eps = parse_feed(fetch(url), url)
             shows.append({"title": show, "feed": url, "count": len(eps)})
