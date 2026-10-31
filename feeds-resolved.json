@@ -1,0 +1,67 @@
+{
+ "À la régulière | France Inter": {
+  "feed": "https://anchor.fm/s/dd1c6758/podcast/rss",
+  "title": "A la régulière",
+  "artist": "Que des numéros 10"
+ },
+ "Calmos, le podcast": {
+  "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156",
+  "title": "Calmos, le podcast",
+  "artist": "Calmos"
+ },
+ "Continue tu m'intéresses": {
+  "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345",
+  "title": "Continue tu m'intéresses",
+  "artist": "Patrick Baud"
+ },
+ "FloodCast": {
+  "feed": "https://feeds.acast.com/public/shows/5ffe3facad3e633276e9ea57",
+  "title": "FloodCast",
+  "artist": "FloodCast"
+ },
+ "La Bonne Vivance": {
+  "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f",
+  "title": "La Bonne Vivance, par Julien Ménielle",
+  "artist": "Julien Ménielle"
+ },
+ "Le Cosy Corner": {
+  "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss",
+  "title": "Le Cosy Corner",
+  "artist": "Le Cosy Corner"
+ },
+ "Le masque et la plume | France Inter": {
+  "feed": "https://feed.podbean.com/bydelaveau/feed.xml",
+  "title": "Le masque et la plume dans le cul",
+  "artist": "Marguerite Du Trash"
+ },
+ "Le Potes Cast de Yacine et Dedo": {
+  "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643",
+  "title": "Le Potes Cast de Yacine et Dedo",
+  "artist": "Yacine & Dedo"
+ },
+ "Les Crapules du Showbiz": {
+  "feed": "https://feeds.acast.com/public/shows/6880a2a94d38ffe5f5b513ee",
+  "title": "Les Crapules du Showbiz",
+  "artist": "NALLA"
+ },
+ "MouseCast": {
+  "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152",
+  "title": "MouseCast",
+  "artist": "Mehdi Maïzi"
+ },
+ "Réalisé sans trucage": {
+  "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8",
+  "title": "RÉALISÉ SANS TRUCAGE",
+  "artist": "Alexis Roux - Simon Riaux - Sophie Grech - Arthur Cios - Nicolas Martin"
+ },
+ "Star System": {
+  "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06",
+  "title": "Star System",
+  "artist": "Samia Miskina"
+ },
+ "Sur parole": {
+  "feed": "https://feeds.acast.com/public/shows/6549f6a597ab0c0011fd95e3",
+  "title": "SUR PAROLE !",
+  "artist": "guigui pop"
+ }
+}
