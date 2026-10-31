@@ -1,0 +1,6 @@
+# Un flux RSS par ligne. Les lignes qui commencent par # sont ignorées.
+# Pour trouver le flux d'un podcast : cherche son nom sur https://podcastindex.org
+# ou colle son lien Apple Podcasts sur https://getrssfeed.com
+#
+# Ajoute tes podcasts ci-dessous :
+

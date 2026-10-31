@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ondes</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#14181f">
+<style>
+:root{
+  --bg:#f6f4ef; --card:#fff; --ink:#1c1f26; --muted:#6b7080; --line:#e6e2d8;
+  --accent:#d9480f; --accent-soft:#fde8dc; --done:#a0a4ad;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#14181f; --card:#1d222c; --ink:#eceef2; --muted:#9aa1ae; --line:#2b313d;
+         --accent:#ff7a3d; --accent-soft:#3a261c; --done:#5f6572; }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);
+  padding:calc(12px + env(safe-area-inset-top)) 16px 8px;border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;gap:8px}
+h1{font-size:22px;margin:0;flex:1;letter-spacing:-.02em}
+h1 span{color:var(--accent)}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:999px;padding:7px 12px;font-size:14px;cursor:pointer}
+.btn:active{transform:scale(.97)}
+.meta{font-size:12px;color:var(--muted);margin-top:4px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;white-space:nowrap}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{padding:4px 16px 140px;max-width:720px;margin:0 auto}
+.day{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--muted);margin:18px 0 6px}
+.ep{display:flex;gap:12px;align-items:center;background:var(--card);
+  border:1px solid var(--line);border-radius:14px;padding:10px;margin-bottom:8px}
+.ep img{width:56px;height:56px;border-radius:10px;object-fit:cover;flex:none;background:var(--line)}
+.ep .txt{flex:1;min-width:0;cursor:pointer}
+.show{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.title{font-weight:600;font-size:15px;display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical;overflow:hidden}
+.sub{font-size:12px;color:var(--muted);margin-top:2px}
+.new{display:inline-block;background:var(--accent-soft);color:var(--accent);
+  font-size:11px;font-weight:700;border-radius:6px;padding:1px 6px;margin-right:4px}
+.ep.done .title,.ep.done .show{color:var(--done)}
+.ep.done img{opacity:.45}
+.check{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--line);
+  background:transparent;color:transparent;font-size:16px;cursor:pointer}
+.ep.done .check{background:var(--done);border-color:var(--done);color:var(--card)}
+.empty{text-align:center;color:var(--muted);padding:48px 12px}
+.err{font-size:12px;color:var(--accent);margin-top:4px}
+#player{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);
+  border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:none}
+#player.on{display:block}
+#player .now{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:6px}
+#player audio{width:100%;height:36px}
+.speed{display:flex;gap:6px;margin-top:6px}
+.speed button{flex:1;padding:4px;font-size:12px}
+.speed button.on{background:var(--ink);color:var(--bg)}
+.status{font-size:12px;color:var(--accent);margin-top:2px;min-height:0}
+.status:empty{display:none}
+.status.spin::before{content:"";display:inline-block;width:9px;height:9px;margin-right:6px;
+  border:2px solid var(--accent);border-right-color:transparent;border-radius:50%;
+  animation:spin .8s linear infinite;vertical-align:-1px}
+@keyframes spin{to{transform:rotate(360deg)}}
+#settings{position:fixed;inset:0;z-index:10;background:rgba(0,0,0,.45);display:none;align-items:flex-end;justify-content:center}
+#settings.on{display:flex}
+.sheet{background:var(--card);width:100%;max-width:520px;border-radius:18px 18px 0 0;
+  padding:18px 16px calc(18px + env(safe-area-inset-bottom))}
+.sheet h2{margin:0 0 8px;font-size:18px}
+.sheet p{margin:0 0 10px;font-size:14px}
+.sheet .small{font-size:12px;color:var(--muted)}
+.sheet label{display:block;font-size:13px;color:var(--muted);margin:10px 0 0}
+.sheet input{display:block;width:100%;margin-top:4px;padding:10px;font-size:15px;border-radius:10px;
+  border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.sheet .row{display:flex;gap:8px;margin-top:16px}
+.sheet .row .btn{flex:1;padding:10px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1>On<span>des</span></h1>
+    <button class="btn" id="toggleDone">Non écoutés</button>
+    <button class="btn" id="refresh" aria-label="Actualiser">↻</button>
+    <button class="btn" id="settingsBtn" aria-label="Réglages">⚙</button>
+  </div>
+  <div class="meta" id="meta">Chargement…</div>
+  <div class="status" id="status"></div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main id="list"></main>
+
+<div id="settings">
+  <div class="sheet">
+    <h2>Mise à jour à l'ouverture</h2>
+    <p>Avec un jeton GitHub, Ondes va chercher les nouveaux épisodes chaque fois que tu l'ouvres.
+      Sans jeton, la liste se met à jour toutes les 2 h.</p>
+    <p class="small">Jeton à créer sur github.com → Settings → Developer settings → Fine-grained tokens :
+      accès au seul dépôt Ondes, permissions <b>Actions : Read and write</b> et <b>Contents : Read-only</b>.</p>
+    <label>Dépôt<input id="repoIn" placeholder="JohnKerDoe/Ondes" autocapitalize="off" autocomplete="off"></label>
+    <label>Jeton<input id="tokenIn" type="password" placeholder="github_pat_…" autocomplete="off"></label>
+    <div class="row">
+      <button class="btn primary" id="saveSettings">Enregistrer</button>
+      <button class="btn" id="closeSettings">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<div id="player">
+  <div class="now" id="nowTitle"></div>
+  <audio id="audio" controls preload="none"></audio>
+  <div class="speed" id="speed"></div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch{ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
+};
+
+let data = {episodes:[], shows:[], errors:[]};
+let done = new Set(store.get("done", []));
+let positions = store.get("positions", {});
+let showFilter = store.get("showFilter", "");
+let onlyUnplayed = store.get("onlyUnplayed", true);
+let speed = store.get("speed", 1);
+const prevVisit = store.get("lastVisit", null);   // pour le badge « Nouveau »
+let current = null;
+
+function fmtDur(s){
+  if(!s) return "";
+  const h = Math.floor(s/3600), m = Math.round((s%3600)/60);
+  return h ? `${h} h ${String(m).padStart(2,"0")}` : `${m} min`;
+}
+function dayLabel(iso){
+  if(!iso) return "Date inconnue";
+  const d = new Date(iso), t = new Date();
+  const start = x => new Date(x.getFullYear(), x.getMonth(), x.getDate());
+  const diff = Math.round((start(t) - start(d)) / 864e5);
+  if(diff === 0) return "Aujourd'hui";
+  if(diff === 1) return "Hier";
+  if(diff < 7) return d.toLocaleDateString("fr-FR",{weekday:"long"});
+  return d.toLocaleDateString("fr-FR",{day:"numeric",month:"long", year: d.getFullYear()!==t.getFullYear() ? "numeric" : undefined});
+}
+function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+// ---------- Données & mise à jour à l'ouverture ----------
+function guessRepo(){
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
+  const repo = location.pathname.split("/").filter(Boolean)[0];
+  return m && repo ? `${m[1]}/${repo}` : "";
+}
+let cfg = store.get("gh", {repo: guessRepo(), token: ""});
+if(!cfg.repo) cfg.repo = guessRepo();
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+let busy = false;
+
+function setStatus(msg, spinning){
+  const s = $("#status");
+  s.textContent = msg || "";
+  s.classList.toggle("spin", !!spinning);
+}
+
+async function fetchData(){
+  if(cfg.token && cfg.repo){
+    // Lecture directe dans le dépôt : à jour dès que l'Action a terminé (pas d'attente GitHub Pages)
+    try{
+      const r = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/episodes.json`, {
+        headers:{Authorization:`Bearer ${cfg.token}`, Accept:"application/vnd.github.raw+json"},
+        cache:"no-store"
+      });
+      if(r.ok) return await r.json();
+    }catch{}
+  }
+  const r = await fetch("episodes.json?t=" + Date.now(), {cache:"no-store"});
+  return r.json();
+}
+
+async function load(){
+  try{
+    const d = await fetchData();
+    data = d; store.set("cache", d);
+  }catch(e){
+    if(!data.episodes.length) $("#meta").textContent = "Impossible de charger les épisodes";
+    return;
+  }
+  render();
+}
+
+// Lance l'Action GitHub puis attend le nouveau episodes.json
+async function triggerUpdate(force){
+  if(busy) return;
+  if(!cfg.token || !cfg.repo) return;
+  const last = store.get("lastDispatch", 0);
+  if(!force && Date.now() - last < 5 * 60e3) return;   // pas plus d'une fois toutes les 5 min
+  busy = true;
+  setStatus("Recherche de nouveaux épisodes…", true);
+  try{
+    const r = await fetch(`https://api.github.com/repos/${cfg.repo}/actions/workflows/update.yml/dispatches`, {
+      method:"POST",
+      headers:{Authorization:`Bearer ${cfg.token}`, Accept:"application/vnd.github+json"},
+      body: JSON.stringify({ref:"main"})
+    });
+    if(r.status !== 204){
+      setStatus(r.status === 401 || r.status === 403 || r.status === 404
+        ? "Jeton refusé : vérifie-le dans ⚙"
+        : `Mise à jour impossible (erreur ${r.status})`);
+      return;
+    }
+    store.set("lastDispatch", Date.now());
+    const before = data.updated;
+    for(let i = 0; i < 24; i++){            // jusqu'à 4 minutes
+      await sleep(10000);
+      const d = await fetchData().catch(() => null);
+      if(d && d.updated && d.updated !== before){
+        data = d; store.set("cache", d); render(); setStatus("");
+        return;
+      }
+    }
+    setStatus("La mise à jour est longue, réessaie avec ↻");
+  }catch(e){
+    setStatus("Pas de connexion");
+  }finally{
+    busy = false;
+  }
+}
+
+function openSettings(){
+  $("#repoIn").value = cfg.repo || "";
+  $("#tokenIn").value = cfg.token || "";
+  $("#settings").classList.add("on");
+}
+$("#settingsBtn").onclick = openSettings;
+$("#closeSettings").onclick = () => $("#settings").classList.remove("on");
+$("#settings").onclick = ev => { if(ev.target.id === "settings") $("#settings").classList.remove("on"); };
+$("#saveSettings").onclick = () => {
+  cfg = {repo: $("#repoIn").value.trim().replace(/^https?:\/\/github\.com\//, "").replace(/\/$/, ""),
+         token: $("#tokenIn").value.trim()};
+  store.set("gh", cfg);
+  $("#settings").classList.remove("on");
+  load().then(() => triggerUpdate(true));
+};
+
+function render(){
+  const upd = data.updated ? new Date(data.updated) : null;
+  $("#meta").innerHTML =
+    (upd ? `Mis à jour ${upd.toLocaleString("fr-FR",{weekday:"short",hour:"2-digit",minute:"2-digit"})}` : "")
+    + ` · ${data.shows.length} podcast${data.shows.length>1?"s":""}`
+    + (data.errors?.length ? `<div class="err">${data.errors.length} flux en erreur : ${data.errors.map(e=>esc(e.feed)).join(", ")}</div>` : "");
+
+  // Filtres par podcast
+  const names = [...new Set(data.shows.map(s => s.title))].sort((a,b)=>a.localeCompare(b,"fr"));
+  if(showFilter && !names.includes(showFilter)) showFilter = "";
+  $("#chips").innerHTML = [`<button class="chip ${!showFilter?"on":""}" data-show="">Tous</button>`]
+    .concat(names.map(n => `<button class="chip ${n===showFilter?"on":""}" data-show="${esc(n)}">${esc(n)}</button>`)).join("");
+  $("#toggleDone").textContent = onlyUnplayed ? "Non écoutés" : "Tout";
+
+  const eps = data.episodes.filter(e =>
+    (!showFilter || e.show === showFilter) && (!onlyUnplayed || !done.has(e.id)));
+
+  if(!data.episodes.length){
+    $("#list").innerHTML = `<div class="empty">Aucun épisode pour l'instant.<br>Ajoute des flux dans <b>feeds.txt</b> sur GitHub, la liste se remplit après la prochaine mise à jour.</div>`;
+    return;
+  }
+  if(!eps.length){
+    $("#list").innerHTML = `<div class="empty">Tout est écouté 🎧</div>`;
+    return;
+  }
+
+  let html = "", lastDay = null;
+  eps.forEach((e, i) => {
+    const day = dayLabel(e.date);
+    if(day !== lastDay){ html += `<div class="day">${esc(day)}</div>`; lastDay = day; }
+    const isNew = prevVisit && e.date && e.date > prevVisit && !done.has(e.id);
+    const pos = positions[e.id];
+    const left = pos && e.duration ? ` · reste ${fmtDur(e.duration - pos)}` : "";
+    html += `<div class="ep ${done.has(e.id)?"done":""}" data-i="${data.episodes.indexOf(e)}">
+      <img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+      <div class="txt" data-play>
+        <div class="show">${isNew?'<span class="new">Nouveau</span>':""}${esc(e.show)}</div>
+        <div class="title">${esc(e.title)}</div>
+        <div class="sub">${fmtDur(e.duration)}${left}</div>
+      </div>
+      <button class="check" data-check aria-label="Marquer comme écouté">✓</button>
+    </div>`;
+  });
+  $("#list").innerHTML = html;
+}
+
+function play(e){
+  if(!e.audio){ if(e.link) window.open(e.link, "_blank"); return; }
+  const a = $("#audio");
+  saveCurrentPos();
+  current = e;
+  a.src = e.audio;
+  a.playbackRate = speed;
+  a.onloadedmetadata = () => { if(positions[e.id]) a.currentTime = positions[e.id]; a.playbackRate = speed; };
+  a.play().catch(()=>{});
+  $("#nowTitle").textContent = `${e.show} — ${e.title}`;
+  $("#player").classList.add("on");
+  if("mediaSession" in navigator){
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: e.title, artist: e.show, artwork: e.image ? [{src:e.image, sizes:"512x512"}] : []
+    });
+  }
+}
+function saveCurrentPos(){
+  const a = $("#audio");
+  if(current && a.currentTime > 5){ positions[current.id] = Math.floor(a.currentTime); store.set("positions", positions); }
+}
+function toggleDone(id){
+  done.has(id) ? done.delete(id) : done.add(id);
+  // on ne garde que les épisodes encore présents pour ne pas gonfler le stockage
+  const ids = new Set(data.episodes.map(e => e.id));
+  done = new Set([...done].filter(x => ids.has(x)));
+  store.set("done", [...done]);
+  render();
+}
+
+$("#list").addEventListener("click", ev => {
+  const card = ev.target.closest(".ep"); if(!card) return;
+  const e = data.episodes[+card.dataset.i];
+  if(ev.target.closest("[data-check]")) toggleDone(e.id);
+  else if(ev.target.closest("[data-play]")) play(e);
+});
+$("#chips").addEventListener("click", ev => {
+  const c = ev.target.closest(".chip"); if(!c) return;
+  showFilter = c.dataset.show; store.set("showFilter", showFilter); render();
+});
+$("#toggleDone").onclick = () => { onlyUnplayed = !onlyUnplayed; store.set("onlyUnplayed", onlyUnplayed); render(); };
+$("#refresh").onclick = () => { load(); triggerUpdate(true); };
+
+// Vitesse de lecture
+const speeds = [1, 1.25, 1.5, 1.75, 2];
+$("#speed").innerHTML = speeds.map(s => `<button class="btn ${s===speed?"on":""}" data-s="${s}">${String(s).replace(".",",")}×</button>`).join("");
+$("#speed").onclick = ev => {
+  const b = ev.target.closest("button"); if(!b) return;
+  speed = +b.dataset.s; store.set("speed", speed); $("#audio").playbackRate = speed;
+  [...$("#speed").children].forEach(x => x.classList.toggle("on", +x.dataset.s === speed));
+};
+
+const audio = $("#audio");
+setInterval(saveCurrentPos, 10000);
+audio.addEventListener("pause", saveCurrentPos);
+audio.addEventListener("ended", () => {
+  if(current){ delete positions[current.id]; store.set("positions", positions); if(!done.has(current.id)) toggleDone(current.id); }
+});
+document.addEventListener("visibilitychange", () => {
+  if(document.visibilityState === "hidden"){ saveCurrentPos(); store.set("lastVisit", new Date().toISOString()); }
+  else { load(); triggerUpdate(); }
+});
+window.addEventListener("pagehide", () => store.set("lastVisit", new Date().toISOString()));
+
+// À l'ouverture : on affiche tout de suite la dernière liste connue, puis on met à jour
+const cached = store.get("cache", null);
+if(cached && cached.episodes){ data = cached; render(); }
+load().then(() => triggerUpdate());
+</script>
+</body>
+</html>
