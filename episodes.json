@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T00:33:09+00:00",
+ "updated": "2026-10-31T00:34:00+00:00",
  "shows": [
   {
    "title": "Le jeu des 1 000 €",
@@ -15,6 +15,11 @@
    "title": "Le masque et la plume",
    "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml",
    "count": 30
+  },
+  {
+   "title": "À la régulière",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml",
+   "count": 22
   },
   {
    "title": "Calmos, le podcast",
@@ -72,13 +77,19 @@
    "count": 30
   }
  ],
- "errors": [
-  {
-   "feed": "À la régulière | France Inter",
-   "error": "podcast introuvable : À la régulière"
-  }
- ],
+ "errors": [],
  "episodes": [
+  {
+   "show": "À la régulière",
+   "title": "Mylène Farmer : pourquoi fascine-t-elle autant ?",
+   "date": "2026-10-30T21:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/cd0a3ed1-83a8-4765-925e-303fcd9d80cc/26017-30.10.2026-ITEMA_24732321-2026F54560S0303-NET_MFI_830F8900-B0B6-4D49-A753-685E0989FF54-22-dda57354f3b86e589be6164a73b4fabc.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-vendredi-30-octobre-2026-6864704",
+   "duration": 3444,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "1dddd3d0-e3bd-4947-81d5-9a6c3fc1612a",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
   {
    "show": "Affaires sensibles",
    "title": "Jimmy Savile l'ogre de la BBC",
@@ -122,6 +133,17 @@
    "image": "https://assets.pippa.io/shows/63a6f9cd471563001006a3a8/1793263066051-2f037347-6ebe-43d2-ae02-b50e0d929825.jpeg",
    "id": "6ae308bc5a3cc3c4c4856091",
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Philippe Katerine sur sa Planète bleue",
+   "date": "2026-10-29T21:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/b1bd3f00-b876-4282-9808-128c24d87dc3/26017-29.10.2026-ITEMA_24730852-2026F54560S0302-NET_MFI_2F1ECA56-2C37-44DC-9A9A-E99BDEC773E8-22-960ff71adf19b85d85cf9b314d7da04b.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-jeudi-29-octobre-2026-7679496",
+   "duration": 3361,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "34af9c3a-b59f-4e64-82f3-3c9490cb493d",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Affaires sensibles",
@@ -188,6 +210,17 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ae29e62d441d3d7deb9af57",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Le grand retour de Kayna Samet : \"J’ai compris d’où me vient cette rage de vaincre\"",
+   "date": "2026-10-28T21:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/723b1183-4f14-4e37-81bb-cc6c1d494567/26017-28.10.2026-ITEMA_24729452-2026F54560S0301-NET_MFI_0DA46664-6941-4D9E-8DCD-0BCD65494BFB-22-4dfc36b310d9e96143d154583e019373.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mercredi-28-octobre-2026-9481976",
+   "duration": 3429,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "150fcdf7-062b-4a41-9159-177a4eddfb89",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Les Crapules du Showbiz",
@@ -342,6 +375,17 @@
    "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1792943123627-2ddda547-3f49-40af-9e5f-63f742cf31a4.jpeg",
    "id": "6ade271b959e7ea69d227768",
    "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Le premier jeu \"Tomb Raider\" est sorti il y a 30 ans",
+   "date": "2026-10-26T21:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/f8a11055-a46b-486e-bbd4-a53a5e638c5d/26017-26.10.2026-ITEMA_24726437-2026F54560S0299-NET_MFI_AB9401B2-CD7C-42EB-A9EC-D3976A39A3E4-22-7708685f2df11165ce0bfbf1fa389e3a.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-lundi-26-octobre-2026-2305740",
+   "duration": 3414,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "70136591-ad59-4dd4-9c12-5549c8912f69",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Affaires sensibles",
@@ -509,6 +553,17 @@
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
   },
   {
+   "show": "À la régulière",
+   "title": "La NFL débarque à Paris : la France peut-elle tomber amoureuse du football américain ?",
+   "date": "2026-10-23T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/3f081a4a-67f7-4b59-8ba5-bb298249919a/26017-23.10.2026-ITEMA_24723487-2026F54560S0296-NET_MFI_506F2E7C-1925-4D79-8BCE-03F97806D681-22-5ae3dc108164a572a288b9e25a0f0881.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-vendredi-23-octobre-2026-4204636",
+   "duration": 3429,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "153569ad-312c-4d51-97c6-126868b9ceb3",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Affaires sensibles",
    "title": "L'affaire Robert Hendy-Freegard",
    "date": "2026-10-23T13:04:40+00:00",
@@ -551,6 +606,17 @@
    "image": "https://assets.pippa.io/shows/63a6f9cd471563001006a3a8/1792681050333-3e20e876-822f-41bb-a354-87e5065ec45f.jpeg",
    "id": "6ada246301892fa69dd389d2",
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
+  },
+  {
+   "show": "À la régulière",
+   "title": "\"Les Gosses Effrayés\", le retour très rap d'A2H",
+   "date": "2026-10-22T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/b38938bd-f206-4853-a980-f7550f2d33e1/26017-22.10.2026-ITEMA_24721965-2026F54560S0295-NET_MFI_CC61AE5D-F5CE-4638-9B97-01746191702C-22-d4b364e521ae95cbe3f5f06a78640ecc.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-jeudi-22-octobre-2026-2141676",
+   "duration": 3429,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "17009c6f-4f1a-4e84-af7b-6f9d5b42bcb3",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Affaires sensibles",
@@ -606,6 +672,17 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ad9252be86767d57a4a1d85",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Denis Ménochet à l’affiche de \"Karma\", le nouveau film de Guillaume Canet",
+   "date": "2026-10-21T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/2e65779f-72af-4a4b-8f9f-fadd09cb178a/26017-21.10.2026-ITEMA_24720533-2026F54560S0294-NET_MFI_EC61AE1D-8FAA-4338-B9E0-08033B6EEEDB-22-87dcfaf7b8a00092b7d2f523bda2ddbf.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mercredi-21-octobre-2026-3256626",
+   "duration": 3458,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "de97ecf6-1607-462f-bb3e-54bdba61ca42",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Affaires sensibles",
@@ -696,6 +773,17 @@
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
   },
   {
+   "show": "À la régulière",
+   "title": "Élodie Yung : \"On a vraiment tourné sur le porte-avions ! Ce qui est quand même une aventure folle.\"",
+   "date": "2026-10-20T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/ad176a7c-a53f-4ad2-b162-01e5d6f5533c/26017-20.10.2026-ITEMA_24718938-2026F54560S0293-NET_MFI_2EF17A17-BDFA-4B51-9D75-CCCE589C1D3B-22-6acf64fe6e684d93225ee20e4c0a4516.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mardi-20-octobre-2026-4813874",
+   "duration": 3384,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "c24b339c-888c-4d49-9c0e-ec5c3718d080",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Affaires sensibles",
    "title": "L'invité : David Naïm, écrivan",
    "date": "2026-10-20T13:41:00+00:00",
@@ -771,6 +859,17 @@
    "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1792435410088-5e8e95fa-f7f5-48ff-839b-0c7e1e3b1a33.jpeg",
    "id": "6ad664d8c23d575312f680d0",
    "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Eric Judor : \"On a vite voulu avec Ramzy ne pas se contenter de la scène, mais emmener les gens vers une aventure\"",
+   "date": "2026-10-19T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/a1c92daf-2191-4973-a66a-ca8d78f0db5c/26017-19.10.2026-ITEMA_24717279-2026F54560S0292-NET_MFI_B6F3ADE9-B115-453B-9647-D2F095779FEF-22-c55f93f8c60c9f9c401bb7814561117b.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-lundi-19-octobre-2026-9127102",
+   "duration": 3350,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "f862f23a-794a-44b9-84d7-4c3303dbc33a",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Affaires sensibles",
@@ -949,6 +1048,17 @@
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
   },
   {
+   "show": "À la régulière",
+   "title": "Comment Angèle et Tristan Salvati ont repensé leur processus de création pour Instinct, leur nouvel album",
+   "date": "2026-10-16T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/4c0fd0d4-7d55-4bda-b15b-8a063eaaaebc/26017-16.10.2026-ITEMA_24713852-2026F54560S0289-NET_MFI_2498058C-3200-49E9-A6C0-499856A9B60B-22-07915b468b9a779670e9ff2b9df424c1.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-vendredi-16-octobre-2026-6317400",
+   "duration": 3438,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "7e67870c-ed1b-49b6-ab98-b8475ae59eab",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Affaires sensibles",
    "title": "La censure du roman “Ravages” de Violette Leduc",
    "date": "2026-10-16T13:04:40+00:00",
@@ -991,6 +1101,17 @@
    "image": "https://assets.pippa.io/shows/63a6f9cd471563001006a3a8/1792048852132-41e15c66-8733-4095-a3eb-98acd157a6aa.jpeg",
    "id": "6ad07edc6203da9f2846ed8f",
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Théo Juice dévoile son nouveau projet \"Sans Toi\"",
+   "date": "2026-10-15T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/bddc1219-96f1-4111-91e0-71ca5d08ab0f/26017-15.10.2026-ITEMA_24712536-2026F54560S0288-NET_MFI_55905ED5-FC89-426D-B77B-15524ADB18C9-22-75e723d52f95a3cb41e31f2ec3b02080.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-jeudi-15-octobre-2026-6484894",
+   "duration": 3395,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "f4ce7f5a-4fec-4c1e-9ffc-b60eb406538f",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "RÉALISÉ SANS TRUCAGE",
@@ -1070,6 +1191,17 @@
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
   },
   {
+   "show": "À la régulière",
+   "title": "D'Angelo, figure du mouvement néo-soul",
+   "date": "2026-10-14T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/b5340c39-efa8-4d75-91e9-bc5815c8620f/26017-14.10.2026-ITEMA_24711104-2026F54560S0287-NET_MFI_CD28643D-BFE3-4FDE-9C89-4976126981D4-22-fb1f6a4104aa8e1253b9711d11187850.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mercredi-14-octobre-2026-7606021",
+   "duration": 3448,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "08a3e8e7-4493-40a1-98d5-8c79bd3bc039",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Le jeu des 1 000 €",
    "title": "à Allauch | spécial jeunes",
    "date": "2026-10-14T10:45:20+00:00",
@@ -1125,6 +1257,17 @@
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
   },
   {
+   "show": "À la régulière",
+   "title": "Dans la tête de Samuel Umtiti",
+   "date": "2026-10-13T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/32a33720-714b-45b9-b39f-baeb2841150f/26017-13.10.2026-ITEMA_24709729-2026F54560S0286-NET_MFI_1E1D8021-33FF-43CE-9636-2B8C4AC7A6A1-22-bf2a15f2b885e54259b1837761fa6254.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mardi-13-octobre-2026-6449244",
+   "duration": 3384,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "ded9471a-47ea-4069-b74d-b969c2e4c76e",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Le jeu des 1 000 €",
    "title": "à Allauch | 2",
    "date": "2026-10-13T10:45:20+00:00",
@@ -1156,6 +1299,17 @@
    "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1791827046746-90859317-e5d3-4f7f-a3c2-299499fa6b6a.jpeg",
    "id": "6acd33fa37f0bd18cc07a11b",
    "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Dans les coulisses de \"Chai\", le documentaire d’Henry Tran",
+   "date": "2026-10-12T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/43ead71c-0eee-4c42-9469-8a1d177aade7/26017-12.10.2026-ITEMA_24708103-2026F54560S0285-NET_MFI_78F8B4B3-351E-46D3-8D17-EEE9A03EB930-22-5d18f3608494f1d5290f883f0d7e8e6e.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-lundi-12-octobre-2026-6848098",
+   "duration": 3381,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "109a515c-f933-45c7-bf27-b32e9991c874",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Le jeu des 1 000 €",
@@ -1279,6 +1433,17 @@
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
   },
   {
+   "show": "À la régulière",
+   "title": "\"Arrival\" : l'album d'ABBA a 50 ans. Histoire d'un groupe culte",
+   "date": "2026-10-09T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/d9f89e6a-99e0-4191-b04e-493722d52bbc/26017-08.10.2026-ITEMA_24703558-2026F54560S0282-NET_MFI_E2B1F8EC-E8F0-413D-810C-BA1CC0CFE54D-22-5598b5dc05748becfb1ac06c5710c13a.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-vendredi-09-octobre-2026-2979100",
+   "duration": 3560,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "16e585c4-114d-4846-8df4-e1cb89dc4166",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Le jeu des 1 000 €",
    "title": "à Moissac | 5",
    "date": "2026-10-09T10:45:20+00:00",
@@ -1312,6 +1477,17 @@
    "feed": "https://feeds.acast.com/public/shows/63a6f9cd471563001006a3a8"
   },
   {
+   "show": "À la régulière",
+   "title": "Lino, l'hommage à son frère Calbo",
+   "date": "2026-10-08T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/30988d81-aa78-41e6-877a-e6daa8b392e7/26017-08.10.2026-ITEMA_24703558-2026F54560S0281-NET_MFI_C076F6CB-4E9C-49FD-AB7B-EE9AF5B958A1-22-93f36a9d912499b98c6fd99e1d4fce49.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-jeudi-08-octobre-2026-1242998",
+   "duration": 3453,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "e7e47c04-337b-4775-a565-93d0d45575f6",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "RÉALISÉ SANS TRUCAGE",
    "title": "📺 PARKS AND RECREATION avec SOPHIE RICHE (3/4)",
    "date": "2026-10-08T16:00:00+00:00",
@@ -1343,6 +1519,17 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ac652293bff7a6a1788979e",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Vincent Dedienne : \"Pour moi, Figaro, c'était un journal de droite et le chat de Pinocchio\"",
+   "date": "2026-10-07T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/59186e12-ff54-4e5a-b072-fd61c624b11d/26017-07.10.2026-ITEMA_24702127-2026F54560S0280-NET_MFI_EED75FF7-3DC1-4A5B-AD96-87822D47420B-22-64c4a8bdba39c4c742601c9ab84f68b5.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mercredi-07-octobre-2026-8026290",
+   "duration": 3336,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "a9905bee-0b32-4699-842d-8121e4b942a2",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Le jeu des 1 000 €",
@@ -1389,6 +1576,17 @@
    "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
   },
   {
+   "show": "À la régulière",
+   "title": "\"Guérir\", premier album de Marguerite : \"La musique est un des premiers catalyseurs d'empathie\"",
+   "date": "2026-10-06T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/560fbb0e-e0cb-47e1-86c6-522d0051b6a5/26017-06.10.2026-ITEMA_24700648-2026F54560S0279-NET_MFI_DC909567-573F-48B3-93D8-12B981867630-22-ab3213d8ae8c4fdebe31fe9b1b05993d.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mardi-06-octobre-2026-5773657",
+   "duration": 3386,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "af3d5a3b-208e-4dce-a89c-b13a158ff6fa",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Le jeu des 1 000 €",
    "title": "à Moissac | 2",
    "date": "2026-10-06T10:45:20+00:00",
@@ -1431,6 +1629,17 @@
    "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1791222520872-e13ee457-ae76-4754-84a9-4636cbf4c20c.jpeg",
    "id": "6ac3e731aef04465056700ce",
    "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Hommage à Prince Waly",
+   "date": "2026-10-05T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/c0358882-3755-4312-8c12-2d8724bb64d3/26017-05.10.2026-ITEMA_24699000-2026F54560S0278-NET_MFI_7E0EF08E-9461-4B43-A9F9-60108D6E6A65-22-32803d536dbb18b8fb88bcc19714c934.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-lundi-05-octobre-2026-7631566",
+   "duration": 3323,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "497c37fe-3624-41b4-a93a-cd4b98ee9f39",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Le jeu des 1 000 €",
@@ -1554,6 +1763,17 @@
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
   },
   {
+   "show": "À la régulière",
+   "title": "Ariane Bonzini : le premier album d'un \"Mec Normal\"",
+   "date": "2026-10-02T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/a6c408e1-b707-4d9f-ac24-92e787d97276/26017-01.10.2026-ITEMA_24695318-2026F54560S0275-NET_MFI_9B6F07A4-9B83-4F1C-AF66-87B5C2B8B3B5-22-c8c0db01317b21a3b583d2d582db6f1e.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-vendredi-02-octobre-2026-4401865",
+   "duration": 3418,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "6ec3ed12-69eb-4b14-b894-e6387e00a037",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
    "show": "Le jeu des 1 000 €",
    "title": "à La Réole | 5",
    "date": "2026-10-02T10:45:20+00:00",
@@ -1629,6 +1849,28 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6abd6b574301ac61ce789292",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Il y a dix ans, Solange sortait \"A Seat at the Table\"",
+   "date": "2026-09-30T20:04:50+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/3b92bef3-ff9e-4a30-a78f-09a40bf3c6db/795f19f8-bf4f-491e-9642-3444a21132c4/26017-30.09.2026-ITEMA_24692750-2026F54560S0273-NET_MFI_60D399FA-AD1B-4F58-B222-7F6DE89BBA1A-22-454cda1034f9f0e9caf503a19ee11725.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/a-la-reguliere/a-la-reguliere-du-mercredi-30-septembre-2026-6313760",
+   "duration": 3397,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2025/08/72c6697c-5d56-47fb-af3a-48b69d98c5f9/1400x1400_sc_a-la-reguliere.jpg",
+   "id": "7a5b4e71-ed91-4f0a-9e07-c6fb116e7200",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
+  },
+  {
+   "show": "À la régulière",
+   "title": "Retrouvez tous les épisodes sur l’appli Radio France",
+   "date": "2026-09-30T20:04:49+00:00",
+   "audio": "https://media.radiofrance-podcast.net/podcast09/app_rf_promotion.mp3?stationId=1",
+   "link": "https://www.radiofrance.fr/application-mobile-radio-france",
+   "duration": 12,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2022/01/04f722eb-ed54-439f-9be6-532ecad002c9/1400x1400_radio-france-avatar.jpg",
+   "id": "https://media.radiofrance-podcast.net/podcast09/app_rf_promotion.mp3?stationId=1",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_3b92bef3-ff9e-4a30-a78f-09a40bf3c6db.xml"
   },
   {
    "show": "Le jeu des 1 000 €",
@@ -3136,248 +3378,6 @@
    "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1777199668354-0bd0dcd2-37c7-4935-b539-c4072875f48d.jpeg",
    "id": "69edec89abe143da5b1e0fbf",
    "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "MouseCast",
-   "title": "À L'irrégulière, avec Matias Enaut",
-   "date": "2026-04-27T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69e904d70b4baf3bf2989211/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/a-lirreguliere-avec-matias-enaut",
-   "duration": 5143,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1776878780885-2f045180-10fc-4d00-8755-aa6b8ca403ae.jpeg",
-   "id": "69e904d70b4baf3bf2989211",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Hors série #4 : qui a le plus d'auditeurs entre Gims et Big Sean ?",
-   "date": "2026-04-23T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69e903e46eeb59e2bada0670/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/hors-serie-3-qui-a-le-plus-dauditeurs-entre-gims-et-big-sean",
-   "duration": 2471,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1776878419262-12d838d5-81cc-4ba3-ac18-b3e157fa14ce.jpeg",
-   "id": "69e903e46eeb59e2bada0670",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#179 - Keane extra conjugal",
-   "date": "2026-04-22T03:30:33+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2306869271-lecosycorner-179-keane-extra-conjugal.mp3",
-   "link": "https://soundcloud.com/lecosycorner/179-keane-extra-conjugal",
-   "duration": 11491,
-   "image": "https://i1.sndcdn.com/artworks-FgPThKxJ1dG9Zo2l-Kcy65Q-t3000x3000.png",
-   "id": "tag:soundcloud,2010:tracks/2306869271",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "SPEED raconté en entier à Alba",
-   "date": "2026-04-21T05:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/69e6318e289eeb2c7b123309/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/speed-raconte-en-entier-a-alba",
-   "duration": 5777,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1776693673664-c40d7d98-ad88-4512-987b-f783cd561152.jpeg",
-   "id": "69e6318e289eeb2c7b123309",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Hippolyte Dourdent | La quantique et le thaumazein",
-   "date": "2026-04-21T03:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69e5e43107ecece42af395a5/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/hippolyte-dourdent-la-quantique-et-le-thaumazein",
-   "duration": 4628,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1776673771070-5c2a88a5-ffd0-48ea-a6d8-dd30ba388e1f.jpeg",
-   "id": "69e5e43107ecece42af395a5",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Lou Trotignon : Trouver sa place & les anti-manifesting [La Bonne Vivance - Ép. long]",
-   "date": "2026-04-20T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69e55f4cd2febdbec966d095/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/lou-trotignon-trouver-sa-place-les-anti-manifesting-la-bonne",
-   "duration": 7713,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1776638337204-bb0c7ef6-5d0e-484e-8077-707e15bfc527.jpeg",
-   "id": "69e55f4cd2febdbec966d095",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Sylvqin nous explique Internet (ça va cartonner ce truc)",
-   "date": "2026-04-20T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69e31af00b4baf3bf27ebd41/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/sylvqin-nous-explique-internet-ca-va-cartonner-ce-truc",
-   "duration": 4897,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1776491173849-07322c99-2f22-421b-ad30-a431a6bea894.jpeg",
-   "id": "69e31af00b4baf3bf27ebd41",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "MouseCast",
-   "title": "La vraie vie d'intermittent du spectacle",
-   "date": "2026-04-16T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69de95e8ae33864715128a35/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/la-vraie-vie-dintermittent-du-spectacle",
-   "duration": 3552,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1776194989699-b1782977-3b4e-4cb3-9f84-7b2a3ba681d8.jpeg",
-   "id": "69de95e8ae33864715128a35",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Elise Costa | Le traumatisme vicariant",
-   "date": "2026-04-14T03:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69dd28712cfb2f5bcba1ba69/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/elise-costa-le-traumatisme-vicariant",
-   "duration": 4987,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1776093303183-d819ca6e-1dfe-406f-aade-c80bc0e3c373.jpeg",
-   "id": "69dd28712cfb2f5bcba1ba69",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Lou Trotignon : Mylène Farmer & les coquillettes aux lardons  [La Bonne Vivance - Ép. court]",
-   "date": "2026-04-13T06:38:24+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69dc8f60f24ed7c15f881c29/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/lou-trotignon-mylene-farmer-les-coquillettes-aux-lardons-la",
-   "duration": 853,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1776062152773-17c96e7e-923b-4577-bed9-eed0476c4a2b.jpeg",
-   "id": "69dc8f60f24ed7c15f881c29",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "MouseCast",
-   "title": "On invite un magicien et on en prend plein la tronche",
-   "date": "2026-04-13T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69dbdeae79a641a1f3e52845/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/la-magie-ca-existe-ou-pas",
-   "duration": 3850,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1776016571453-d73b8936-5375-41d7-bda2-9903223a8e3c.jpeg",
-   "id": "69dbdeae79a641a1f3e52845",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Hors série #3 : Le fils caché de François Fillon",
-   "date": "2026-04-09T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69d20eea1d7024f1a7062fc5/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/hors-serie-3-le-fils-cache-de-francois-fillon",
-   "duration": 1900,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1775373968376-6ba875a1-20b8-4b55-9a5d-42e387914eb7.jpeg",
-   "id": "69d20eea1d7024f1a7062fc5",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#178 - Mentalité synapse",
-   "date": "2026-04-08T03:30:01+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2298433793-lecosycorner-178-mentalite-synapse.mp3",
-   "link": "https://soundcloud.com/lecosycorner/178-mentalite-synapse",
-   "duration": 9023,
-   "image": "https://i1.sndcdn.com/artworks-FgPThKxJ1dG9Zo2l-Kcy65Q-t3000x3000.png",
-   "id": "tag:soundcloud,2010:tracks/2298433793",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "Pixar, Alter Ego et nouveau concept",
-   "date": "2026-04-07T05:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/69d44474d2e95f51316fafc7/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/pixar-alter-ego-et-nouveau-concept",
-   "duration": 4101,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1738599465059-671a9ad8-282e-49ec-9167-28630bb21f0b.jpeg",
-   "id": "69d44474d2e95f51316fafc7",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Bernard Werber | L'influence de la minorité",
-   "date": "2026-04-07T03:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69d3920bd2e95f51312bed46/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/bernard-werber",
-   "duration": 4428,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1775473136261-1008d26f-cf1e-48b4-8255-2849561f0b81.jpeg",
-   "id": "69d3920bd2e95f51312bed46",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Spécial S*xualité avec Gilbert Bou Jaoudé [La Bonne Vivance - Ép. Hors Série]",
-   "date": "2026-04-06T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69d2d75a1d7024f1a74ad018/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/special-sxualite-avec-gilbert-bou-jaoude-la-bonne-vivance-ep",
-   "duration": 5431,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1775425251008-fd7ffa23-ea96-4f00-b96e-db1cda4952ee.jpeg",
-   "id": "69d2d75a1d7024f1a74ad018",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Opération à coeur ouvert et cheval à gros doigts",
-   "date": "2026-04-06T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69d20e40f57702d2d9479f6b/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/operation-a-coeur-ouvert-et-cheval-a-gros-doigts",
-   "duration": 7419,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1775373784553-bb5b7b0f-3ae2-4558-bab9-5322ae0be7e6.jpeg",
-   "id": "69d20e40f57702d2d9479f6b",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Hors série #2 : notre plus grand fou rire se trouve dans cet épisode",
-   "date": "2026-04-02T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69c8dc58e05c00aacf092db3/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/hors-serie-2-notre-plus-grand-fou-rire-se-trouve-dans-cet-ep",
-   "duration": 2550,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1774771216847-4f8deb83-17b5-4916-9ccf-cb6bf03adf66.jpeg",
-   "id": "69c8dc58e05c00aacf092db3",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Cyprien | 2+2=5",
-   "date": "2026-03-31T03:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69cabf7492d007a765175023/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/cyprien-225",
-   "duration": 4148,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1774894611203-6baae735-2f88-4447-b40c-8daea31aea37.jpeg",
-   "id": "69cabf7492d007a765175023",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Maël aka Le Tréma & les Polly Pocket pour garçon [La Bonne Vivance - Ép. long]",
-   "date": "2026-03-30T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69c9a2afc2759aa9b1bd88e7/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/mael-aka-le-trema-les-polly-pocket-pour-garcon-la-bonne-viva",
-   "duration": 7059,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1774821070180-a0a006ae-2edb-4f4f-aba4-aa711f345cad.jpeg",
-   "id": "69c9a2afc2759aa9b1bd88e7",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "MouseCast",
-   "title": "Sale temps pour les Moyenthéons",
-   "date": "2026-03-30T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/66e3f503547e9546dfdf0152/e/69c8db7fb9917327714c509a/media.mp3",
-   "link": "https://shows.acast.com/mousecast/episodes/sale-temps-pour-les-moyentheons",
-   "duration": 4932,
-   "image": "https://assets.pippa.io/shows/66e3f503547e9546dfdf0152/1774771032832-73d7b8a1-1b0a-445b-809e-a1b3eafbc832.jpeg",
-   "id": "69c8db7fb9917327714c509a",
-   "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#177 - Trompette émotionnelle",
-   "date": "2026-03-25T04:00:55+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2289987689-lecosycorner-cosy-corner-177.mp3",
-   "link": "https://soundcloud.com/lecosycorner/cosy-corner-177",
-   "duration": 8128,
-   "image": "https://i1.sndcdn.com/artworks-tHwacqQQONQoJ3z7-1zTO6w-t3000x3000.png",
-   "id": "tag:soundcloud,2010:tracks/2289987689",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
   }
  ]
 }
