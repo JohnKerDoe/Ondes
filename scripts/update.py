@@ -207,15 +207,22 @@ def main():
     epoch = datetime(1970, 1, 1, tzinfo=timezone.utc)
     all_eps.sort(key=lambda e: e["date"] or epoch, reverse=True)
     all_eps = all_eps[:MAX_TOTAL]
+    descriptions = {}
     for e in all_eps:
         e["date"] = e["date"].isoformat() if e["date"] else None
+        # Les descriptions vont dans un fichier à part, chargé seulement à l'ouverture d'une fiche
+        d = e.pop("description", "")
+        if d:
+            descriptions[e["id"]] = d
+    (ROOT / "descriptions.json").write_text(
+        json.dumps(descriptions, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     OUT_FILE.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "shows": shows,
         "errors": errors,
         "episodes": all_eps,
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(all_eps)} épisodes écrits dans episodes.json")
 
 

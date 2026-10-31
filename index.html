@@ -172,8 +172,16 @@ function fullDate(iso){
   return d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})
     + " à " + d.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"});
 }
+// Pochettes réduites à la volée (les originales font 1400×1400) ; repli sur l'originale si besoin
+function thumb(src, size){
+  return src ? `https://wsrv.nl/?url=${encodeURIComponent(src)}&w=${size}&h=${size}&fit=cover&output=webp&q=75` : "";
+}
+function imgFallback(img){
+  if(img.dataset.orig && img.src !== img.dataset.orig){ img.src = img.dataset.orig; img.dataset.orig = ""; }
+  else img.style.visibility = "hidden";
+}
 function imgTag(src){
-  return src ? `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="ph"></div>`;
+  return src ? `<img src="${esc(thumb(src,112))}" data-orig="${esc(src)}" alt="" loading="lazy" decoding="async" width="56" height="56" onerror="imgFallback(this)">` : `<div class="ph"></div>`;
 }
 
 // Description : on garde le texte, les paragraphes et les liens, rien d'autre
@@ -255,21 +263,34 @@ function openDetail(i, push = true){
   const actions = [];
   if(e.link) actions.push(`<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">Page de l'épisode ↗</a>`);
   if(e.audio) actions.push(`<a class="btn" href="${esc(e.audio)}" target="_blank" rel="noopener">Fichier audio ↗</a>`);
-  const desc = cleanDesc(e.description);
   $("#crumb").textContent = e.show;
   $("#dbody").innerHTML = `
     <div class="dhead">
-      ${e.image ? `<img src="${esc(e.image)}" alt="" onerror="this.remove()">` : ""}
+      ${e.image ? `<img src="${esc(thumb(e.image,208))}" data-orig="${esc(e.image)}" alt="" onerror="imgFallback(this)">` : ""}
       <div><div class="dshow">${esc(e.show)}</div><h2 class="dtitle">${esc(e.title)}</h2></div>
     </div>
     <div class="facts">${facts.join("")}</div>
     ${actions.length ? `<div class="actions">${actions.join("")}</div>` : ""}
-    <div class="desc">${desc || '<p class="none">Pas de description pour cet épisode.</p>'}</div>`;
+    <div class="desc" id="desc"><p class="none">Chargement de la description…</p></div>`;
+  fillDesc(e);
   $("#detail").scrollTop = 0;
   $("#detail").classList.add("on");
   $("#detail").setAttribute("aria-hidden","false");
   document.body.classList.add("lock");
   if(push) history.pushState({ep:i}, "");
+}
+let descs = null, descsPromise = null;
+function loadDescs(){
+  if(descs) return Promise.resolve(descs);
+  if(!descsPromise) descsPromise = fetchFile("descriptions.json")
+    .then(d => (descs = d), () => { descsPromise = null; return null; });
+  return descsPromise;
+}
+async function fillDesc(e){
+  const d = await loadDescs();
+  if($("#crumb").textContent !== e.show || !$("#desc")) return;
+  const html = d ? cleanDesc(d[e.id] || e.description || "") : "";
+  $("#desc").innerHTML = html || `<p class="none">${d ? "Pas de description pour cet épisode." : "Description indisponible (pas de connexion ?)"}</p>`;
 }
 function closeDetail(){
   $("#detail").classList.remove("on");
@@ -305,15 +326,17 @@ function setStatus(msg, spinning){
   s.textContent = msg || "";
   s.classList.toggle("spin", !!spinning);
 }
-async function fetchData(){
+async function fetchData(){ return fetchFile("episodes.json"); }
+async function fetchFile(name){
   if(cfg.token && cfg.repo){
     try{
-      const r = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/episodes.json`, {
+      const r = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/${name}`, {
         headers:{Authorization:`Bearer ${cfg.token}`, Accept:"application/vnd.github.raw+json"}, cache:"no-store"});
       if(r.ok) return await r.json();
     }catch{}
   }
-  const r = await fetch("episodes.json?t=" + Date.now(), {cache:"no-store"});
+  const r = await fetch(name + "?t=" + Date.now(), {cache:"no-store"});
+  if(!r.ok) throw new Error(r.status);
   return r.json();
 }
 async function load(){
@@ -348,7 +371,7 @@ async function triggerUpdate(force){
       await sleep(10000);
       const d = await fetchData().catch(() => null);
       if(d && d.updated && d.updated !== before){
-        data = d; store.set("cache", d);
+        data = d; store.set("cache", d); descs = null; descsPromise = null;
         if(!$("#detail").classList.contains("on")) render();
         setStatus(""); return;
       }
