@@ -163,6 +163,9 @@ function dayLabel(iso){
   if(diff < 7) return d.toLocaleDateString("fr-FR",{weekday:"long"});
   return d.toLocaleDateString("fr-FR",{day:"numeric",month:"long", year: d.getFullYear()!==t.getFullYear() ? "numeric" : undefined});
 }
+function fmtTime(iso){
+  return iso ? new Date(iso).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}) : "";
+}
 function fullDate(iso){
   if(!iso) return "";
   const d = new Date(iso);
@@ -233,7 +236,7 @@ function render(){
       <div class="txt">
         <div class="show">${isNew?'<span class="new">Nouveau</span>':""}${esc(e.show)}</div>
         <div class="title">${esc(e.title)}</div>
-        <div class="sub">${fmtDur(e.duration)}</div>
+        <div class="sub">${[fmtTime(e.date), fmtDur(e.duration)].filter(Boolean).join(" · ")}</div>
       </div>
     </button>`;
   });
