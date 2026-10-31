@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T00:31:30+00:00",
+ "updated": "2026-10-31T00:32:00+00:00",
  "shows": [
   {
    "title": "Le jeu des 1 000 €",
@@ -9,6 +9,11 @@
   {
    "title": "Affaires sensibles",
    "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_0b91efaf-26e6-11e4-907f-782bcb6744eb.xml",
+   "count": 30
+  },
+  {
+   "title": "Le masque et la plume",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml",
    "count": 30
   },
   {
@@ -42,11 +47,6 @@
    "count": 30
   },
   {
-   "title": "Le masque et la plume dans le cul",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml",
-   "count": 25
-  },
-  {
    "title": "Le Potes Cast de Yacine et Dedo",
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643",
    "count": 30
@@ -77,16 +77,7 @@
    "count": 30
   }
  ],
- "errors": [
-  {
-   "feed": "Affaires sensibles | France Inter",
-   "error": "podcast introuvable : Affaires sensibles"
-  },
-  {
-   "feed": "Le Jeu des 1000 euros | France Inter",
-   "error": "podcast introuvable : Le Jeu des 1000 euros"
-  }
- ],
+ "errors": [],
  "episodes": [
   {
    "show": "Affaires sensibles",
@@ -197,17 +188,6 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ae29e62d441d3d7deb9af57",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "Cinéfolles ! À propos de Fjord, Notre Salut, L'inconnue, I want your Sex, Les éléphants dans la brume",
-   "date": "2026-10-28T17:59:20+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/jpgkb3wwqa7bb7i6/Cie_nfle_autmone_V36ikif.mp3",
-   "link": "https://bydelaveau.podbean.com/e/cinefolles-a-propos-de-fjord-notre-salut-linconnue-i-want-your-sex-les-elephants-dans-la-brume/",
-   "duration": 4709,
-   "image": "https://pbcdn1.podbean.com/imglogo/image-logo/21338612/logo_neutre_286tci.jpg",
-   "id": "bydelaveau.podbean.com/f11b68a1-21cf-3c98-833e-681c2d758203",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
   },
   {
    "show": "Les Crapules du Showbiz",
@@ -450,6 +430,72 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ade815f89952336bcffa008",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Minotaure\", \"Les Misérables\", \"La Gradiva\", \"Karma\", \"Le Corset\" : quels films aller voir au cinéma cette semaine ?",
+   "date": "2026-10-25T09:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/ba059530-35c8-4280-849a-1818567ab986/26831-25.10.2026-ITEMA_24725359-2026F4007S0298-NET_MFI_25425944-354C-4FA2-8DCD-4CCF45A6C0BB-22-099afc650c4e269754e7d57ac6cd88e1.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-25-octobre-2026-8551647",
+   "duration": 2824,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "f73c425a-77b8-4199-9e43-9082540a1f0e",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Les Misérables\" : une adaptation \"creuse et scolaire\" du chef d'oeuvre de Victor Hugo, selon Le Masque",
+   "date": "2026-10-25T09:04:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/271294ff-093b-496c-9871-8c1851dabcc6/26831-25.10.2026-ITEMA_24725359-2026F4007E0058-MGM-B4D32221-B490-48CE-8B38-6401299C7E70-22-fd85b7d5962497114ec6738ddba2b07e.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/les-miserables-de-fred-cavaye-4133438",
+   "duration": 520,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "c5e431c5-2e81-45eb-a0ff-091a9aea9cad",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Le Corset\" de Louis Clichy, un film d’animation sincère qui redresse et élève selon le Masque",
+   "date": "2026-10-25T09:03:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/c14b1e9c-9c9d-460b-94e7-9c672bf95d8b/26831-25.10.2026-ITEMA_24725359-2026F4007E0062-MGM-12833FDF-530D-47BC-B497-2E61A6207807-22-e266f9244a087df52d951d39e91fae30.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-corset-de-louis-clichy-1645251",
+   "duration": 415,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "1b7dd8e2-29b7-479d-90df-8f68cccc98d1",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"La Gradiva\" : le voyage initiatique d'une jeunesse pleine de grâce qui a bouleversé Le Masque",
+   "date": "2026-10-25T09:02:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/88f124d0-1d2b-4308-bad3-4c0362077695/26831-25.10.2026-ITEMA_24725359-2026F4007E0061-MGM-FA992653-91C9-454E-85C6-6A53F79B3220-22-0fa77ba8822ed3ac94bdb5df2ef514d4.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/la-gradiva-de-marine-atlan-5749260",
+   "duration": 421,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "17da6b1b-b6de-479c-8c23-658f52732c72",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Karma\" de Guillaume Canet : \"un bon thriller du dimanche soir mais cousu de fil blanc\", selon Le Masque",
+   "date": "2026-10-25T09:01:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/8c2a3572-567f-48f1-9854-9ebb6d5ca7ae/26831-25.10.2026-ITEMA_24725359-2026F4007E0060-MGM-AF6EC07F-643B-4503-AAD4-0168E18F0478-22-803abf33fd5f26047c283e055381253c.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/karma-de-guillaume-canet-7141227",
+   "duration": 441,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "4ec53e66-8080-4047-9435-e92781b34f92",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Minotaure\" d'Andreï Zviaguintsev : Le Masque salue un pamphlet politique glaçant sur la faillite morale russe",
+   "date": "2026-10-25T09:00:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/446706a6-dba2-4736-bf11-d71d61f5b8f0/26831-25.10.2026-ITEMA_24725359-2026F4007E0059-MGM-09118DD9-7131-4E01-A148-61BEFF702984-22-f0bb4697eb9411d9788c89492eb2b4cb.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/minotaure-d-andrei-zviaguintsev-2922326",
+   "duration": 421,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "88bd5478-4ea0-4526-8596-5fbcdd30cb2a",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
   },
   {
    "show": "Le Potes Cast de Yacine et Dedo",
@@ -738,17 +784,6 @@
    "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_0b91efaf-26e6-11e4-907f-782bcb6744eb.xml"
   },
   {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul d'Yvette Néliaz alias Dame Pipi",
-   "date": "2026-10-19T13:08:26+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/b35qa96gedj2f8jk/VF_-_La_plume_d_Yvette_Ne_liaz71llz.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-dyvette-neliaz-alias-dame-pipi/",
-   "duration": 3513,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/WhatsApp_Image_2026-09-28_at_1441286uqeo.jpeg",
-   "id": "bydelaveau.podbean.com/adbe226e-9ad7-3b6e-9f35-88da71214810",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
-  },
-  {
    "show": "Affaires sensibles",
    "title": "Les camps de regroupement de population un drame de la guerre d'Algérie - Le récit",
    "date": "2026-10-19T13:04:50+00:00",
@@ -824,6 +859,83 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ad528d85cda6bbdfce7ce12",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Singin' in the rain\", \"Mahabharata\", \"Figaro\", \"Drag Race\"...Quelles sont les pièces de théâtre à voir cette semaine ?",
+   "date": "2026-10-18T08:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/ccbfdbdb-ac04-446a-b213-16b27656856f/26831-18.10.2026-ITEMA_24716177-2026F4007S0291-NET_MFI_895E7B68-60EB-4BA1-93B9-3C4C3A20731D-22-04031e10d1cfd5fdc7c8b66a1bcae07c.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-18-octobre-2026-9708643",
+   "duration": 2849,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "0d04d4f3-e61b-42bf-884c-a72a3f0cfeb0",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Singin' in the Rain\" au Lido : \"un spectacle d'une beauté phénoménale qui redonne une pêche d'enfer\", selon Le Masque",
+   "date": "2026-10-18T08:05:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/78a8617a-871a-45fe-888c-6405cb2af99f/26831-18.10.2026-ITEMA_24716177-2026F4007E0052-MGM-B18DA132-806E-432B-8DD9-A3E91D6D9A6C-22-4d72457aeca7d8a86f4196bd3693dbd1.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/singin-in-rain-par-robert-carsen-3230594",
+   "duration": 371,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "ede66b3a-57a5-4a1c-a85e-e7311be5462a",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "Drag Race France Live 4 : Le Masque applaudit le nouveau show \"survolté, chaleureux et galvanisant\" de Thomas Jolly",
+   "date": "2026-10-18T08:04:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/8a557150-a5ac-4321-9e84-0115c3fc86b0/26831-18.10.2026-ITEMA_24716177-2026F4007E0055-MGM-0A180A4C-F43F-427B-817F-EBEB2DBE51D8-22-a19f8263a280bf5308921a7a400a1ad8.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/drag-race-live-france-2026-par-thomas-jolly-7537417",
+   "duration": 386,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "a420eb78-60a5-4d87-95ac-ebcbebe20ed4",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"La Folle journée ou le mariage de Figaro\" par Alain Françon, du \"très bel ouvrage\" selon les critiques du Masque",
+   "date": "2026-10-18T08:03:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/5d4bac88-7b27-46c6-aa6a-08e44d0f08a3/26831-18.10.2026-ITEMA_24716177-2026F4007E0054-MGM-4EBA9617-D932-4B4C-81ED-97BDDA5E0E81-22-e3220562bff9edad5fe497d257945f47.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/la-folle-journee-ou-le-mariage-de-figaro-de-beaumarchais-par-alain-francon-8046208",
+   "duration": 404,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "2e2017ab-3149-4737-b77d-671f37cf6047",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"La Musica Deuxième\" de Duras par Arnaud Desplechin : chef-d’œuvre ou faux-semblant ? Découvrez les critiques du Masque",
+   "date": "2026-10-18T08:02:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/8184c61d-d92d-452d-8135-94882a40ce38/26831-18.10.2026-ITEMA_24716177-2026F4007E0056-MGM-46F797BD-8622-40E9-AC17-4708CC7D68B0-22-62c3a4eaf29797d63a4477187e7a757f.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/la-musica-deuxieme-par-arnaud-desplechin-1262587",
+   "duration": 316,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "5aa89277-0b24-42ea-b662-65d12bd026aa",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Mahabharata, une histoire de la violence\" par Pauline Bayle, détails intéressants mais décevant selon le Masque",
+   "date": "2026-10-18T08:01:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/64922833-f1ae-4f81-b8e7-5c0fdd2b2379/26831-18.10.2026-ITEMA_24716177-2026F4007E0053-MGM-841C3025-50E8-444E-9FF1-91BD8647504A-22-7119a03a666c845d38e21b46201129de.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/mahabharata-une-histoire-de-la-violence-par-pauline-bayle-8884303",
+   "duration": 382,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "ce6b8ae0-b171-4895-b0d5-87ff1629c9c9",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Laponie\" par le duo de La Patellière et Delaporte : le Père Noël n’existe pas, et le rire non plus selon Le Masque",
+   "date": "2026-10-18T08:00:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/9d9cfbbd-48a0-4de5-baa1-8df39d7752af/26831-18.10.2026-ITEMA_24716177-2026F4007E0057-MGM-57ACF6D8-85B6-444F-82B0-F891A3D54D0E-22-d416d17ca63cafdc81f7da09eca8e763.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/laponie-par-alexandre-de-la-patelliere-et-matthieu-delaporte-6626071",
+   "duration": 348,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "893b5c8a-4ab1-43dd-a4e1-66a9ecc44c91",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
   },
   {
    "show": "Le Potes Cast de Yacine et Dedo",
@@ -1101,6 +1213,61 @@
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
   },
   {
+   "show": "Le masque et la plume",
+   "title": "\"Notre Salut, \"Digger\", \"Mémoire de fille\", \"The Social Reckoning\"...Quels films aller voir au cinéma cette semaine ?",
+   "date": "2026-10-11T08:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/8cf271ef-a403-4e40-b7e1-4e54432f0d95/14007-11.10.2026-ITEMA_24706973-2026F4007S0284-NET_MFI_2D8CC91B-26B2-4258-B825-AD59D467D6B8-22-fc7ba72569bf8ac42e0314931632fff4.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-11-octobre-2026-7671572",
+   "duration": 2832,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "aa2d2896-f4e6-4de6-b6cc-e4d998a04c25",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Notre Salut\" d’Emmanuel Marre : Le Masque salue un chef d'oeuvre sur les coulisses de la Collaboration",
+   "date": "2026-10-11T08:04:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/3ad43f77-2d10-4b0d-b534-c749786b7d1c/26831-11.10.2026-ITEMA_24707010-2026F4007E0047-MGM-5E85FBE2-2B34-4B3B-9102-05940FAD28BB-22-3564d89c19d0d51e32807b10b94b6ca8.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/notre-salut-d-emmanuel-marre-5103935",
+   "duration": 691,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "20a99a12-11b5-49c4-8c6b-9206dafac44c",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Digger\" d’Alejandro González Iñárritu, un film loupé, laid, ratage curieux",
+   "date": "2026-10-11T08:03:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/74da4e8b-a94e-40ef-9b8b-04595f7ccb1f/26831-11.10.2026-ITEMA_24707010-2026F4007E0048-MGM-B02EA10E-0C8B-4FB3-A207-6EA21742E57D-22-1c94764ddfba1d4a356166f17c7241d6.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/digger-d-alejandro-gonzalez-inarritu-9626503",
+   "duration": 403,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "b0f8320f-6794-4b45-af15-2700e0b9a290",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"The Social Reckoning\" d’Aaron Sorkin : thriller brillant ou conte trop rassurant ? Découvrez les avis du Masque",
+   "date": "2026-10-11T08:02:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/d102d1cb-8162-4416-852d-fd47f0e6515c/26831-11.10.2026-ITEMA_24707010-2026F4007E0050-MGM-752EEA27-7E24-49FA-A750-483837372562-22-12e920b467169a8eb7322e2b1d4c9293.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/the-social-reckoning-d-aaron-sorkin-2572005",
+   "duration": 350,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "b4604048-0a5a-487c-899c-d97779bc250b",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "Le Masque et Isabelle Huppert : \"Ni vue ni connue\" de Marc Fitoussi : le pitch fait rire, le film fait débat chez les critiques du Masque",
+   "date": "2026-10-11T08:01:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/19d04427-66f6-4088-9e2b-2c9b24cf9738/26831-11.10.2026-ITEMA_24707010-2026F4007E0049-MGM-A732CD9B-8D78-4AC6-93F7-248123328FE8-22-784ac732f499f0c151ceebea15ee49ad.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/ni-vue-ni-connue-de-marc-fitoussi-8827438",
+   "duration": 393,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2026/04/d980ce4c-c7c3-4803-8876-315d8a22a32a/1400x1400_sc_carre-le-masque-et-isabelle-huppert.jpg",
+   "id": "ba306e7c-426c-4c5a-b90c-6f8c9da15415",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
    "show": "Le Potes Cast de Yacine et Dedo",
    "title": "LPTD - SERPENT + FINES HERBES",
    "date": "2026-10-11T03:00:00+00:00",
@@ -1176,17 +1343,6 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ac652293bff7a6a1788979e",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Vimala Pons",
-   "date": "2026-10-07T21:13:27+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/pugree2mv336vetj/VF-_VIMALA_PONS_monte_traite_62pgq.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-vimala-pons/",
-   "duration": 2669,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/MPDLQ_-_Vimala_POns6nmvk.png",
-   "id": "bydelaveau.podbean.com/18a26090-108a-3c6d-ae5f-c81b13ab8422",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
   },
   {
    "show": "Le jeu des 1 000 €",
@@ -1330,6 +1486,61 @@
    "image": "https://assets.pippa.io/shows/674ef0d65e1cc0fabeec0e06/1767294394823-ec09dde6-6e93-4d00-9dd6-da22e1fccfcd.jpeg",
    "id": "6ac28de72086a539f3b33253",
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "Patrick Modiano, Luz, Christine Angot, Lucie Bérard, Ananda Devi : quels sont les livres à lire cette semaine ?",
+   "date": "2026-10-04T08:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/ceba1b79-87a0-4a21-8001-b00aac71e432/26831-04.10.2026-ITEMA_24697818-2026F4007S0277-NET_MFI_24441A1B-9524-44B1-BF1B-AD460421F403-22-a746ce010de91efb6b80f75911e38f80.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-04-octobre-2026-3347299",
+   "duration": 2781,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "636fb2f3-ba5f-4109-8676-20f4708b01d0",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Un diamant dans les gravats\" de Luz : entre rires et larmes, le dessinateur veille ses morts au centre Pompidou",
+   "date": "2026-10-04T08:04:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/c7877cfa-1349-4f8f-9557-17e2184f1bcd/26831-04.10.2026-ITEMA_24697818-2026F4007E0046-MGM-28C2AFBB-4446-49B1-A375-31F2272D300B-22-21d14c5e4a56afd1c23190c9da5a4d83.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/un-diamant-dans-les-gravats-de-luz-3225759",
+   "duration": 399,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "c6983bcc-4050-46ef-bd49-62c602a094af",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Décolorer sa fille\" de Lucie Bérard : des critiques partagées entre une promesse et un manque de ton",
+   "date": "2026-10-04T08:03:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/8307325a-fc34-4f66-b44b-a7f183d1338a/26831-04.10.2026-ITEMA_24697818-2026F4007E0045-MGM-554B09F8-2366-449E-A08F-48F68B84E151-22-c00d988f1b3ecb8735b53ea992c898d0.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-premier-roman-decolorer-sa-fille-de-lucie-berard-5072583",
+   "duration": 418,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "8a3c375d-938e-4a12-96d7-9a59d58a5905",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Je change de nom\" de Christine Angot : un acte intime, administratif et politique salué par Le Masque",
+   "date": "2026-10-04T08:02:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/842c6525-e322-4ae5-b736-133d889c3eda/26831-04.10.2026-ITEMA_24697818-2026F4007E0044-MGM-CA820ED8-949D-4307-A78B-61BDFBA12A37-22-e2709cd6625bf2e7607c7bfe85acecf1.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/je-change-de-nom-de-christine-angot-1994165",
+   "duration": 457,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "3d8f7737-8925-44da-baa0-800bdb21d9ff",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "Le Masque et Patrick Modiano : \"L’Éléphant\" de Patrick Modiano : fond de tiroir ou adieu bouleversant ? Découvrez les critiques du Masque",
+   "date": "2026-10-04T08:00:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/f7dabbb4-90c1-4b57-ad97-53680425262f/26831-04.10.2026-ITEMA_24697818-2026F4007E0042-MGM-EA5321AC-C6E2-4D62-9F47-7E772ECE6744-22-892c9223f94063be44612fe0117929fc.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/l-elephant-de-patrick-modiano-3521474",
+   "duration": 373,
+   "image": "https://www.radiofrance.fr/s3/rf-cruiser-embed-production/2026/10/4699d73f-f320-4f40-8316-9149f885fb4d/1400x1400_sc_carre-le-masque-et-patrick-modiano.jpg",
+   "id": "4121e3d6-12b3-40fd-a879-03a56d203693",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
   },
   {
    "show": "Le Potes Cast de Yacine et Dedo",
@@ -1530,15 +1741,70 @@
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
   },
   {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Mascare",
-   "date": "2026-09-27T11:58:33+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/gg84tk6gzbgr47s9/MPDLQ-Mascare-VF-Monte_7s70s.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-mascare/",
-   "duration": 3857,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/PHOTO-2026-08-21-16-20-27.jpg",
-   "id": "bydelaveau.podbean.com/a6bbe9e5-89fc-3ab5-a1f6-453b22023e1f",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
+   "show": "Le masque et la plume",
+   "title": "\"Si tu penses bien\", \"Les Roches rouges\", \"Primetime\", \"Heart of the Beast\"... Quel film voir au cinéma cette semaine ?",
+   "date": "2026-09-27T08:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/fd782779-fedd-4ba4-9d71-b8e6f834da85/14007-27.09.2026-ITEMA_24642463-2026F4007S0270-NET_MFI_59DD9686-6B23-41E4-84EE-E5C53C8CF152-22-e9800ff5143e19228f6ab8f73ab44f88.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-27-septembre-2026-9902376",
+   "duration": 3000,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "a41fb769-15a1-4bd0-917e-51264e2c7cfb",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Si tu penses bien\" de Géraldine Nakache, quand l'emprise se teinte de religion",
+   "date": "2026-09-27T08:04:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/e270a0ee-0c3b-4049-939d-add6c47f2077/26831-27.09.2026-ITEMA_24688398-2026F4007E0040-MGM-B13E56D0-067B-48BE-81FB-CA71BE167467-22-55e8ab0f5c5e2c4935af70eba3157578.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/si-tu-penses-bien-de-geraldine-nakache-3619025",
+   "duration": 548,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "e0d41a8b-5ef3-4488-945a-d177078dc090",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Primetime\" de Lance Oppenheim : Le Masque fustige un film glauque et sensationnaliste sur la société du spectacle",
+   "date": "2026-09-27T08:03:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/7f2af5fc-0cc7-4890-93d8-a9b232832c99/26831-27.09.2026-ITEMA_24688398-2026F4007E0039-MGM-F4C77F3F-6E2F-4294-8F32-824FB79EB8AE-22-cc81aa5f6826a0267a2a24095f333cce.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/primetime-de-lance-oppenheim-2358326",
+   "duration": 398,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "c1051370-b38c-4c82-a6e8-73479faf4c94",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"Les Roches Rouges\" de Bruno Dumont : le chef-d'œuvre d'un peintre ou film en roue libre ?",
+   "date": "2026-09-27T08:02:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/f2626185-0109-4f2f-a6a2-1a39b3a7d75f/26831-27.09.2026-ITEMA_24688398-2026F4007E0038-MGM-1AE68D91-C88D-426E-B3BA-736A90864871-22-2049f0d43a7f08d80c457a19ef329cc6.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/les-roches-rouges-de-bruno-dumont-8250264",
+   "duration": 459,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "62ff7308-9f89-4a2e-a437-f9043dd726f4",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "\"The Heart of the Beast\" de David Ayer : fable touchante sur la rédemption ou série B trop convenue ?",
+   "date": "2026-09-27T08:01:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/72d7c767-eda2-4e2b-af68-4b0a37ab4e7a/26831-27.09.2026-ITEMA_24688398-2026F4007E0037-MGM-46BF6BF2-084F-49C9-9219-76394FB1A446-22-3f924519fe87e45d679c27a226f16ca2.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/the-heart-of-the-beast-de-david-ayer-6485352",
+   "duration": 429,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "cbd822e4-9e76-4a22-8ebe-73bcbc27aae3",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
+   "show": "Le masque et la plume",
+   "title": "Touchant, lumineux, trop sage : que vaut vraiment \"Garance\" de Jeanne Herry selon Le Masque ?",
+   "date": "2026-09-27T08:00:00+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/a6c87aa5-77b8-4e81-b35c-26de23fa7bf6/26831-27.09.2026-ITEMA_24688398-2026F4007E0036-MGM-93A8EE98-7EAC-4CD7-9346-302BE64CF6D3-22-78735ffc38d95d1b6f1dc5af37b2ed81.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/garance-de-jeanne-herry-7602621",
+   "duration": 457,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "c63400e5-e9bd-41e0-881a-4ba79c15912d",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
   },
   {
    "show": "Le Potes Cast de Yacine et Dedo",
@@ -1684,6 +1950,17 @@
    "feed": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06"
   },
   {
+   "show": "Le masque et la plume",
+   "title": "\"La vie d'une femme, \"L'invitation\", \"Histoires de la nuit\"...Que faut-il aller voir au cinéma cette semaine ?",
+   "date": "2026-09-20T08:12:40+00:00",
+   "audio": "https://proxycast.radiofrance.fr/d4463877-caa3-4507-9399-f5eb00fde027/c266b241-3ed9-47ed-912f-4eabdc2f0275/7b227c41-ba4d-4859-960a-ca1360be6a67/14007-20.09.2026-ITEMA_24642462-2026F4007S0263-NET_MFI_A2DC9BDA-F54C-4E8D-A4E5-4F2997A5F350-22-df1586313e23217c77858b4e961f15ce.mp3",
+   "link": "https://www.radiofrance.fr/franceinter/podcasts/le-masque-et-la-plume/le-masque-et-la-plume-du-dimanche-20-septembre-2026-6429373",
+   "duration": 2819,
+   "image": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9af0dff8-1489-4d8b-a605-5ad279c478ba/1400x1400_sc_le-masque-et-la-plume-rm.jpg",
+   "id": "81bbcda8-ae5e-40b0-9c05-3bc0aef071d9",
+   "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml"
+  },
+  {
    "show": "Le Potes Cast de Yacine et Dedo",
    "title": "LPTD - MASSIMO ET SERGEI",
    "date": "2026-09-20T03:00:00+00:00",
@@ -1792,17 +2069,6 @@
    "image": "https://assets.pippa.io/shows/687ea5fc498abee416817643/1788894405939-203ed985-e731-4822-880f-3544df6325f9.jpeg",
    "id": "6aa05cdb3dd40cf71e4cc059",
    "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Mami Watta",
-   "date": "2026-09-11T10:52:54+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/utee3vt3jvsszz2b/Mami_WATTA_monte_8mqhw.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-mami-watta/",
-   "duration": 3497,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/Quentin_Bidaud_-_2026-08-26_150008615ct.jpg",
-   "id": "bydelaveau.podbean.com/04c2c3e4-d2fd-345d-9e82-1710d6bd92f5",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
   },
   {
    "show": "Les Crapules du Showbiz",
@@ -2421,28 +2687,6 @@
    "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
   },
   {
-   "show": "Le masque et la plume dans le cul",
-   "title": "BONUS - Table ronde critique CINÉFOLLES été 2026",
-   "date": "2026-07-01T14:52:15+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/nbrn56gssnkiavyh/Cine_folles_e_te_2026_VF7h270.mp3",
-   "link": "https://bydelaveau.podbean.com/e/bonus-table-ronde-critique-cinefolles-ete-2026/",
-   "duration": 4010,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/WhatsApp_Image_2026-01-07_at_1830269gomr.jpeg",
-   "id": "bydelaveau.podbean.com/1152864b-c0d3-3d34-87f0-56c5d5f9e7bf",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "BONUS - Table ronde critique spéciale MUSIQUE",
-   "date": "2026-07-01T13:57:48+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/w38rxiidpmwsqa2c/Table_Critique_muisuqe_VFa4v3x.mp3",
-   "link": "https://bydelaveau.podbean.com/e/bonus-table-ronde-critique-speciale-musique/",
-   "duration": 4809,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/74b28f66-cbed-42ab-b59c-b9b014355dfb.jpg",
-   "id": "bydelaveau.podbean.com/541a46ba-2d10-364f-9341-b6ae4ab4569a",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
-  },
-  {
    "show": "Le Cosy Corner",
    "title": "#183 - Un milliard virgule cinq",
    "date": "2026-06-30T22:36:34+00:00",
@@ -2575,17 +2819,6 @@
    "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
   },
   {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Jonathan Capdevielle et Dimitri Doré à la Maison des Métallos",
-   "date": "2026-06-11T02:07:51+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/r8k6f7a4mki267ud/La_plume_de_Jonathan_Capdevielle_et_Dimitri_Dore_39508c.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-jonathan-capdevielle-et-dimitri-dore-a-la-maison-des-metallos/",
-   "duration": 3683,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/PHOTO-2026-05-30-19-48-44.jpg",
-   "id": "bydelaveau.podbean.com/131c43fb-053b-3d55-966f-51d9e2616d97",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
-  },
-  {
    "show": "Continue tu m'intéresses",
    "title": "Adeline Dieudonné | Bourgeois gaze et jiu-jitsu",
    "date": "2026-06-09T08:09:26+00:00",
@@ -2606,17 +2839,6 @@
    "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1780846565664-3d141f8d-e449-4db3-83e1-36e8792c82c2.jpeg",
    "id": "6a259289250fa4918b717d87",
    "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Sami Landri feat. Chiquita Mère",
-   "date": "2026-06-03T10:13:44+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/nw8t2hqvnf5nadt4/La_plume_de_Sami_Landri_-_monte_9fdrv.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-sami-landri-feat-chiquita-mere/",
-   "duration": 3585,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/IMG_3067.jpg",
-   "id": "bydelaveau.podbean.com/c25b718a-c301-3f3b-8733-cf8ffdfc63c1",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
   },
   {
    "show": "Le Cosy Corner",
@@ -2837,17 +3059,6 @@
    "image": "https://i1.sndcdn.com/artworks-R0urpCDAcLckjeOO-AyJQaQ-t3000x3000.png",
    "id": "tag:soundcloud,2010:tracks/2315418635",
    "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul d'Anna Mouglalis",
-   "date": "2026-05-05T11:46:29+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/yexfpyi39krfk2cz/Masque_ANNA_traite_83uss.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-danna-mouglalis/",
-   "duration": 4545,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/PHOTO-2026-04-17-22-25-09.jpg",
-   "id": "bydelaveau.podbean.com/531b9630-95bf-3419-9b22-7ba08176a03b",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
   },
   {
    "show": "Calmos, le podcast",
@@ -3158,17 +3369,6 @@
    "feed": "https://feeds.acast.com/public/shows/66e3f503547e9546dfdf0152"
   },
   {
-   "show": "Le masque et la plume dans le cul",
-   "title": "La plume dans le cul de Léane Alestra",
-   "date": "2026-03-25T15:07:43+00:00",
-   "audio": "https://mcdn.podbean.com/mf/web/3g53fsedufegemcg/_LEANE_MASTER_VFaerd3.mp3",
-   "link": "https://bydelaveau.podbean.com/e/la-plume-dans-le-cul-de-leane-alestra/",
-   "duration": 3756,
-   "image": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog21338612/IMG_1967.jpg",
-   "id": "bydelaveau.podbean.com/75526459-ffe2-312e-b1d3-3cf243465537",
-   "feed": "https://feed.podbean.com/bydelaveau/feed.xml"
-  },
-  {
    "show": "Le Cosy Corner",
    "title": "#177 - Trompette émotionnelle",
    "date": "2026-03-25T04:00:55+00:00",
@@ -3178,215 +3378,6 @@
    "image": "https://i1.sndcdn.com/artworks-tHwacqQQONQoJ3z7-1zTO6w-t3000x3000.png",
    "id": "tag:soundcloud,2010:tracks/2289987689",
    "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Samuel Etienne | Il faut imaginer Sisyphe heureux",
-   "date": "2026-03-24T12:21:54+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69c281e262f6c66afe072841/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/samuel-etienne-il-faut-imaginer-sisyphe-heureux",
-   "duration": 5590,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1774353969196-b78dfc67-42c9-4f07-9679-8b939c5c1a45.jpeg",
-   "id": "69c281e262f6c66afe072841",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "CITIZEN KANE raconté à Aurélien Chapuis",
-   "date": "2026-03-24T06:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/69c1263c62f6c66afe9966cd/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/citizen-kane-raconte-a-aurelien-chapuis",
-   "duration": 5830,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1774265617483-aae9de3c-ad59-458d-bda3-a9c153ef0c07.jpeg",
-   "id": "69c1263c62f6c66afe9966cd",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Maël aka Le Tréma : Houmousation & Mambo number 5  [La Bonne Vivance - Ép. court]",
-   "date": "2026-03-23T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69c069763bbfcfe8db21aced/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/mael-aka-le-trema-houmousation-mambo-number-5-la-bonne-vivan",
-   "duration": 882,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1774216501969-276459be-5b57-43b8-a98b-c063084dad95.jpeg",
-   "id": "69c069763bbfcfe8db21aced",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Pénélope Bagieu | La légende du plongeur aspiré par un canadair",
-   "date": "2026-03-17T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69b851b51b5a7dfbdf6bf0d5/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/penelope-bagieu",
-   "duration": 3468,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1773687187605-123a6333-3f52-4d54-a934-d128cb06ea6c.jpeg",
-   "id": "69b851b51b5a7dfbdf6bf0d5",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Alcool & Addictions avec Laurent Karila [La Bonne Vivance - Ép. Hors Série]",
-   "date": "2026-03-16T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69b716464266c9b1c73f004e/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/alcool-addictions-avec-laurent-karila-la-bonne-vivance-ep-ho",
-   "duration": 3242,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1773604778766-a35b3e6a-7881-40b9-a317-6e1d84ae9457.jpeg",
-   "id": "69b716464266c9b1c73f004e",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#176 - Compète et complexe 2",
-   "date": "2026-03-11T06:54:58+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2281260446-lecosycorner-176-compete-et-complexe-2.mp3",
-   "link": "https://soundcloud.com/lecosycorner/176-compete-et-complexe-2",
-   "duration": 8218,
-   "image": "https://i1.sndcdn.com/artworks-FgPThKxJ1dG9Zo2l-Kcy65Q-t3000x3000.png",
-   "id": "tag:soundcloud,2010:tracks/2281260446",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "Les César, Franck Dubosc et les films malades",
-   "date": "2026-03-10T06:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/69aeea22db12e00bfdc1b304/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/franck-dubosc-cesarise-grace-a-ses-lunettes-dintello",
-   "duration": 4486,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1738599465059-671a9ad8-282e-49ec-9167-28630bb21f0b.jpeg",
-   "id": "69aeea22db12e00bfdc1b304",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Emilien | Jean XX contre le pape zombie",
-   "date": "2026-03-10T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69aefde0a2ae95013b00f391/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/emilien",
-   "duration": 4658,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1773075382607-e102f93d-25fa-42ba-b5f9-08f24389267b.jpeg",
-   "id": "69aefde0a2ae95013b00f391",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Pi Ja Ma : Des prouts, de la drogue et un grain de beauté [La Bonne Vivance - Ép. long]",
-   "date": "2026-03-09T12:20:12+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69aebafc0722bbb60bcb00ba/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/pi-ja-ma-des-prouts-de-la-drogue-et-un-grain-de-beaute-la-bo",
-   "duration": 9003,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1773058394133-8ed3677d-454a-4780-968a-5965716c217c.jpeg",
-   "id": "69aebafc0722bbb60bcb00ba",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Alexandre Astier | Les rails des mantes religieuses",
-   "date": "2026-03-03T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/69a5f61ac6f68bd589a08e7d/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/alexandre-astier",
-   "duration": 5137,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1772483892399-bc6f9ff2-afa0-41f2-8e95-58b0c6a1c6df.jpeg",
-   "id": "69a5f61ac6f68bd589a08e7d",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Pi Ja Ma : Chien anxieux & tagliatelles à l'huile [La Bonne Vivance - Ép. court]",
-   "date": "2026-03-02T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/69a45feaa9760df1fb2c35c6/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/pi-ja-ma-chien-anxieux-tagliatelles-a-lhuile-la-bonne-vivanc",
-   "duration": 1657,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1772377757902-5a991ce6-4b3c-413e-85d2-bde1242ac1b5.jpeg",
-   "id": "69a45feaa9760df1fb2c35c6",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#175 - Compète et complexe",
-   "date": "2026-02-24T22:59:26+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2272844231-lecosycorner-175-compete-et-complexe.mp3",
-   "link": "https://soundcloud.com/lecosycorner/175-compete-et-complexe",
-   "duration": 7925,
-   "image": "https://i1.sndcdn.com/avatars-x0N90uVMwjR6Lzg0-X9yEKw-original.jpg",
-   "id": "tag:soundcloud,2010:tracks/2272844231",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "12 HOMMES EN COLÈRE raconté à Mehdi Maïzi",
-   "date": "2026-02-24T06:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/699c7805483a121592a77e96/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/12-hommes-en-colere-raconte-a-mehdi-maizi",
-   "duration": 5669,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1771862272852-c8c95059-d576-432a-9510-1bb7963873c7.jpeg",
-   "id": "699c7805483a121592a77e96",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "Continue tu m'intéresses",
-   "title": "Mélanie Courtinat | No-hit run",
-   "date": "2026-02-24T04:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/67fd565089f827a873487345/e/699cafcce3f0d89ce2d248b7/media.mp3",
-   "link": "https://shows.acast.com/continue-tu-minteresses/episodes/melanie-courtinat",
-   "duration": 4298,
-   "image": "https://assets.pippa.io/shows/67fd565089f827a873487345/1771876044804-6e65da37-ca4d-4a88-b9fc-3e937b6123b0.jpeg",
-   "id": "699cafcce3f0d89ce2d248b7",
-   "feed": "https://feeds.acast.com/public/shows/67fd565089f827a873487345"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Adrien Ménielle : Des larmes, de la soupe et du sp*rme [La Bonne Vivance - Ép. long]",
-   "date": "2026-02-23T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/699bd1c3166f176858bcff61/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/adrien-menielle-des-larmes-de-la-soupe-et-du-sprme-la-bonne",
-   "duration": 7925,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1771804118175-ac503e68-3cc8-4d3f-b726-287745be540c.jpeg",
-   "id": "699bd1c3166f176858bcff61",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Adrien Ménielle : Busta Flex & un Maltesers dans le slip [La Bonne Vivance - Ép. court]",
-   "date": "2026-02-16T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/6991ed7e1506be1a7e11a83c/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/adrien-menielle-busta-flex-un-maltesers-dans-le-slip-la-bonn",
-   "duration": 1225,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1771171137866-f93f08a0-75b4-4f3e-b72a-dfd7f3da4101.jpeg",
-   "id": "6991ed7e1506be1a7e11a83c",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
-  },
-  {
-   "show": "Le Cosy Corner",
-   "title": "#174 - Ecchi Mitchell",
-   "date": "2026-02-10T22:25:43+00:00",
-   "audio": "https://feeds.soundcloud.com/stream/2263896485-lecosycorner-174-ecchi-mitchell.mp3",
-   "link": "https://soundcloud.com/lecosycorner/174-ecchi-mitchell",
-   "duration": 9193,
-   "image": "https://i1.sndcdn.com/artworks-OxpRfc7c9y1FXKbZ-wLxJVQ-t3000x3000.png",
-   "id": "tag:soundcloud,2010:tracks/2263896485",
-   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss"
-  },
-  {
-   "show": "Calmos, le podcast",
-   "title": "Science-fiction, Jean Eustache et courts-métrages",
-   "date": "2026-02-10T06:30:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/679f672be7c33ddc0077f156/e/6989dd8361be18927062ca25/media.mp3",
-   "link": "https://shows.acast.com/calmos/episodes/free-jazz-a-dunkerque",
-   "duration": 3588,
-   "image": "https://assets.pippa.io/shows/679f672be7c33ddc0077f156/1738599465059-671a9ad8-282e-49ec-9167-28630bb21f0b.jpeg",
-   "id": "6989dd8361be18927062ca25",
-   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156"
-  },
-  {
-   "show": "La Bonne Vivance, par Julien Ménielle",
-   "title": "Samuel Étienne : Boire pour plusieurs vies avant de vivre sa meilleure [La Bonne Vivance - Ép. long]",
-   "date": "2026-02-09T05:00:00+00:00",
-   "audio": "https://sphinx.acast.com/p/open/s/6846eb1c9b8dde68cdb5634f/e/6987a1a545f62cfe9458c3b7/media.mp3",
-   "link": "https://shows.acast.com/la-bonne-vivance-par-julien-menielle/episodes/samuel-etienne-boire-pour-plusieurs-vie-avant-de-vivre-sa-me",
-   "duration": 8172,
-   "image": "https://assets.pippa.io/shows/6846eb1c9b8dde68cdb5634f/1770496135775-cbfbdfd3-03a1-4e6f-ba23-887326247a75.jpeg",
-   "id": "6987a1a545f62cfe9458c3b7",
-   "feed": "https://feeds.acast.com/public/shows/6846eb1c9b8dde68cdb5634f"
   }
  ]
 }
