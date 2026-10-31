@@ -121,8 +121,8 @@ def lookup(name, artist_hint=""):
     results = json.loads(fetch("https://itunes.apple.com/search?" + q)).get("results", [])
     results = [r for r in results if r.get("feedUrl")]
     if artist_hint:
-        hinted = [r for r in results if norm(artist_hint) in norm(r.get("artistName"))]
-        results = hinted or results
+        # diffuseur précisé : on refuse un homonyme plutôt que de se tromper de podcast
+        results = [r for r in results if norm(artist_hint) in norm(r.get("artistName"))]
     if not results:
         raise ValueError(f"podcast introuvable : {name}")
     n = norm(name)
