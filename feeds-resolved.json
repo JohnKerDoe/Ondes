@@ -1,9 +1,4 @@
 {
- "À la régulière | France Inter": {
-  "feed": "https://anchor.fm/s/dd1c6758/podcast/rss",
-  "title": "A la régulière",
-  "artist": "Que des numéros 10"
- },
  "Calmos, le podcast": {
   "feed": "https://feeds.acast.com/public/shows/679f672be7c33ddc0077f156",
   "title": "Calmos, le podcast",
@@ -28,11 +23,6 @@
   "feed": "https://feeds.soundcloud.com/users/soundcloud:users:274829367/sounds.rss",
   "title": "Le Cosy Corner",
   "artist": "Le Cosy Corner"
- },
- "Le masque et la plume | France Inter": {
-  "feed": "https://feed.podbean.com/bydelaveau/feed.xml",
-  "title": "Le masque et la plume dans le cul",
-  "artist": "Marguerite Du Trash"
  },
  "Le Potes Cast de Yacine et Dedo": {
   "feed": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643",
