@@ -26,7 +26,6 @@ puis affiche les nouveaux épisodes environ une minute plus tard (au plus une fo
 ↻ force une mise à jour).
 
 ## Dans l'appli
-- Toucher un épisode : lecture (reprend là où on s'était arrêté).
-- ✓ : marquer comme écouté (automatique en fin d'épisode).
-- Bouton « Non écoutés / Tout » et filtres par podcast en haut.
+- Toucher un épisode : sa fiche complète (date, durée, description, liens).
+- Filtres par podcast en haut.
 - Badge « Nouveau » sur les épisodes sortis depuis la dernière ouverture.

@@ -21,7 +21,9 @@ MAX_TOTAL = 300    # épisodes gardés au total
 NS = {
     "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
     "atom": "http://www.w3.org/2005/Atom",
+    "content": "http://purl.org/rss/1.0/modules/content/",
 }
+MAX_DESC = 6000  # caractères gardés pour la description d'un épisode
 
 
 def text(el, path):
@@ -70,7 +72,13 @@ def parse_feed(xml_bytes, feed_url):
             enc = item.find("enclosure")
             audio = enc.get("url") if enc is not None else ""
             ep_img_el = item.find("itunes:image", NS)
+            desc = (text(item, "content:encoded") or text(item, "description")
+                    or text(item, "itunes:summary"))
             episodes.append({
+                "description": desc[:MAX_DESC],
+                "season": text(item, "itunes:season"),
+                "number": text(item, "itunes:episode"),
+                "author": text(item, "itunes:author") or text(channel, "itunes:author"),
                 "show": show,
                 "title": text(item, "title"),
                 "date": parse_date(text(item, "pubDate")),
@@ -92,6 +100,8 @@ def parse_feed(xml_bytes, feed_url):
                 elif not link:
                     link = l.get("href", "")
             episodes.append({
+                "description": (text(entry, "atom:content") or text(entry, "atom:summary"))[:MAX_DESC],
+                "season": "", "number": "", "author": "",
                 "show": show,
                 "title": text(entry, "atom:title"),
                 "date": parse_date(text(entry, "atom:published") or text(entry, "atom:updated")),
