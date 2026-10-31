@@ -148,13 +148,13 @@ def read_feed_urls():
         resolved = json.loads(RESOLVED_FILE.read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):
         resolved = {}
-    urls, errors, used = [], [], {}
+    direct, urls, errors, used = [], [], [], {}
     for line in FEEDS_FILE.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
         if line.lower().startswith("http"):
-            urls.append(line)
+            direct.append(line)
             continue
         if line not in resolved:
             name, _, hint = line.partition("|")
@@ -168,7 +168,8 @@ def read_feed_urls():
         used[line] = resolved[line]
         urls.append(resolved[line]["feed"])
     RESOLVED_FILE.write_text(json.dumps(used, ensure_ascii=False, indent=1), encoding="utf-8")
-    return urls, errors
+    # Les adresses collées à la main passent en premier : elles priment sur une recherche par nom
+    return direct + urls, errors
 
 
 def fetch(url):
@@ -183,6 +184,9 @@ def main():
     for url in urls:
         try:
             show, eps = parse_feed(fetch(url), url)
+            if norm(show) in {norm(s["title"]) for s in shows}:
+                print(f"--  {show} déjà présent, flux ignoré : {url}")
+                continue
             shows.append({"title": show, "feed": url, "count": len(eps)})
             all_eps.extend(eps)
             print(f"OK  {show} ({len(eps)} épisodes)")

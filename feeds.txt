@@ -3,6 +3,10 @@
 # Tu peux aussi coller directement l'adresse d'un flux RSS.
 # Les lignes qui commencent par # sont ignorées.
 
+# Flux Radio France complets (priment sur la recherche par nom)
+https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_48f74c6a-eb98-11e1-a7b7-782bcb76618d.xml
+https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_0b91efaf-26e6-11e4-907f-782bcb6744eb.xml
+
 À la régulière | France Inter
 Affaires sensibles | France Inter
 Calmos, le podcast
