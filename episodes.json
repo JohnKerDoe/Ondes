@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T00:32:00+00:00",
+ "updated": "2026-10-31T00:33:09+00:00",
  "shows": [
   {
    "title": "Le jeu des 1 000 €",
@@ -15,11 +15,6 @@
    "title": "Le masque et la plume",
    "feed": "https://radiofrance-podcast.net/podcast09/d4463877-caa3-4507-9399-f5eb00fde027/podcast_c266b241-3ed9-47ed-912f-4eabdc2f0275.xml",
    "count": 30
-  },
-  {
-   "title": "A la régulière",
-   "feed": "https://anchor.fm/s/dd1c6758/podcast/rss",
-   "count": 9
   },
   {
    "title": "Calmos, le podcast",
@@ -77,7 +72,12 @@
    "count": 30
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "feed": "À la régulière | France Inter",
+   "error": "podcast introuvable : À la régulière"
+  }
+ ],
  "episodes": [
   {
    "show": "Affaires sensibles",
